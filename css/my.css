@@ -203,4 +203,55 @@
   color: #b3d929;
 }
 
+#menu {
+  width: 100%;
+  height: .97rem;
+  background: #fff;
+  border-top: 1px solid #e5e5e5;
+  position: fixed;
+  bottom: 0;
+  z-index: 999;
+  font-size: .24rem;
+}
+#menu ul {
+  display: flex;
+  justify-content: space-around;
+  margin-top: .14rem;
+}
+#menu ul li {
+  height: .7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#menu ul li i {
+  font-size: .36rem;
+  color: #666;
+  position: relative;
+}
+#menu ul li i .sum {
+  position: absolute;
+  top: -.2rem;
+  right: -.15rem;
+  display: inline-block;
+  width: .29rem;
+  height: .29rem;
+  border-radius: .15rem;
+  background: #ff8b00;
+  font-size: .18rem;
+  color: #fff;
+  text-align: center;
+  line-height: .29rem;
+}
+#menu ul li span {
+  margin-top: .12rem;
+  color: #666;
+}
+#menu ul .active i {
+  color: #b3d929;
+}
+#menu ul .active span {
+  color: #b3d929;
+}
+
 /*# sourceMappingURL=my.css.map */
