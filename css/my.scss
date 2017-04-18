@@ -1,0 +1,128 @@
+.top {
+    height: 3.4rem;
+    overflow: hidden;
+    text-align: center;
+    background: #727173;
+    font-size: 12px;
+    .headPic {
+        position: relative;
+        img {
+            width: 1.5rem;
+            height: 1.5rem;
+            background: green;
+            border-radius: 100%;
+            margin-top: 0.4rem;
+        }
+        i {
+            color: #f6f6f6;
+            margin-left: 0.4rem;
+            font-size: 0.32rem;
+            position: absolute;
+            top: 1rem;
+            left: 4.3rem;
+        }
+    }
+    .name {
+        margin-top: 0.2rem;
+        font-size: 0.28rem;
+        color: #333;
+    }
+    .remianMoney {
+        height: 0.38rem;
+        text-align: center;
+        margin: 0.3rem auto 0;
+        div {
+            display: inline-block;
+            width: 2rem;
+            height: 0.38rem;
+            overflow: hidden;
+            b {
+                font-size: 0.3rem;
+                color: #f7f7f7;
+                margin-right: 0.1rem;
+                line-height: 0.38rem;
+                float: left;
+            }
+            span {
+                font-size: 0.2rem;
+                color: #333;
+                margin-right: 0.1rem;
+                line-height: 0.38rem;
+                float: left;
+            }
+            i {
+                display: inline-block;
+                font-size: 0.2rem;
+                width: 0.6rem;
+                height: 0.38rem;
+                background: #fe8c00;
+                border-radius: 0.1rem;
+                margin-right: 0.1rem;
+                line-height: 0.38rem;
+                float: left;
+            }
+            strong {
+                margin-right: 0.1rem;
+                font-size: 0.2rem;
+                color: #000;
+                line-height: 0.38rem;
+                float: left;
+            }
+        }
+    }
+}
+.item {
+    font-size: 12px;
+    .list {
+        height: 0.9rem;
+        color: #333;
+        background: #fff;
+        border-bottom: 1px solid #e5e5e5;
+        i,
+        span,
+        b {
+            line-height: 0.9rem;
+        }
+        i {
+            font-size: 0.28rem;
+        }
+        b {
+            float: right;
+        }
+        span {
+            margin-left: 0.2rem;
+            font-size: 0.28rem;
+        }
+    }
+    .first {
+        background: #fff;
+        margin-top: 0.2rem;
+        padding: 0 0.2rem;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        .myOrder {
+            
+        }
+        .buyState {
+            padding: 0 0.2rem;
+            background: #fff;
+            ul {
+                float: left;
+                height: 1.3rem;
+                width: 1.1rem;
+                text-align: center;
+                .one {
+                    i {
+                        font-size: 0.4rem;
+                    }
+                    margin-top: 0.2rem;
+                }
+                .two {
+                    font-size: 0.22rem;
+                    margin-top: 0.2rem;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,128 @@
+.top {
+  height: 3.4rem;
+  overflow: hidden;
+  text-align: center;
+  background: #727173;
+  font-size: 12px;
+}
+.top .headPic {
+  position: relative;
+}
+.top .headPic img {
+  width: 1.5rem;
+  height: 1.5rem;
+  background: green;
+  border-radius: 100%;
+  margin-top: 0.4rem;
+}
+.top .headPic i {
+  color: #f6f6f6;
+  margin-left: 0.4rem;
+  font-size: 0.32rem;
+  position: absolute;
+  top: 1rem;
+  left: 4.3rem;
+}
+.top .name {
+  margin-top: 0.2rem;
+  font-size: 0.28rem;
+  color: #333;
+}
+.top .remianMoney {
+  height: 0.38rem;
+  text-align: center;
+  margin: 0.3rem auto 0;
+}
+.top .remianMoney div {
+  display: inline-block;
+  width: 2rem;
+  height: 0.38rem;
+  overflow: hidden;
+}
+.top .remianMoney div b {
+  font-size: 0.3rem;
+  color: #f7f7f7;
+  margin-right: 0.1rem;
+  line-height: 0.38rem;
+  float: left;
+}
+.top .remianMoney div span {
+  font-size: 0.2rem;
+  color: #333;
+  margin-right: 0.1rem;
+  line-height: 0.38rem;
+  float: left;
+}
+.top .remianMoney div i {
+  display: inline-block;
+  font-size: 0.2rem;
+  width: 0.6rem;
+  height: 0.38rem;
+  background: #fe8c00;
+  border-radius: 0.1rem;
+  margin-right: 0.1rem;
+  line-height: 0.38rem;
+  float: left;
+}
+.top .remianMoney div strong {
+  margin-right: 0.1rem;
+  font-size: 0.2rem;
+  color: #000;
+  line-height: 0.38rem;
+  float: left;
+}
+
+.item {
+  font-size: 12px;
+}
+.item .list {
+  height: 0.9rem;
+  color: #333;
+  background: #fff;
+  border-bottom: 1px solid #e5e5e5;
+}
+.item .list i,
+.item .list span,
+.item .list b {
+  line-height: 0.9rem;
+}
+.item .list i {
+  font-size: 0.28rem;
+}
+.item .list b {
+  float: right;
+}
+.item .list span {
+  margin-left: 0.2rem;
+  font-size: 0.28rem;
+}
+.item .first {
+  background: #fff;
+  margin-top: 0.2rem;
+  padding: 0 0.2rem;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.item .first .buyState {
+  padding: 0 0.2rem;
+  background: #fff;
+}
+.item .first .buyState ul {
+  float: left;
+  height: 1.3rem;
+  width: 1.1rem;
+  text-align: center;
+}
+.item .first .buyState ul .one {
+  margin-top: 0.2rem;
+}
+.item .first .buyState ul .one i {
+  font-size: 0.4rem;
+}
+.item .first .buyState ul .two {
+  font-size: 0.22rem;
+  margin-top: 0.2rem;
+}
+
+/*# sourceMappingURL=my.css.map */
