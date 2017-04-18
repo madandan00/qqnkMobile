@@ -1,3 +1,7 @@
+.wrapper {
+  padding-bottom: 0.98rem;
+}
+
 .top {
   height: 3.4rem;
   overflow: hidden;
@@ -17,7 +21,6 @@
 }
 .top .headPic i {
   color: #f6f6f6;
-  margin-left: 0.4rem;
   font-size: 0.32rem;
   position: absolute;
   top: 1rem;
@@ -79,7 +82,6 @@
   height: 0.9rem;
   color: #333;
   background: #fff;
-  border-bottom: 1px solid #e5e5e5;
 }
 .item .list i,
 .item .list span,
@@ -88,6 +90,8 @@
 }
 .item .list i {
   font-size: 0.28rem;
+  color: #000;
+  font-weight: bold;
 }
 .item .list b {
   float: right;
@@ -96,16 +100,31 @@
   margin-left: 0.2rem;
   font-size: 0.28rem;
 }
+.item .border1 {
+  position: relative;
+  border: none;
+}
+.item .border1:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  background: #e5e5e5;
+  width: 100%;
+  height: 1px;
+  -webkit-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
 .item .first {
-  background: #fff;
-  margin-top: 0.2rem;
   padding: 0 0.2rem;
   box-sizing: border-box;
+  background: #fff;
+  margin-top: 0.2rem;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
 .item .first .buyState {
-  padding: 0 0.2rem;
   background: #fff;
 }
 .item .first .buyState ul {
@@ -123,6 +142,14 @@
 .item .first .buyState ul .two {
   font-size: 0.22rem;
   margin-top: 0.2rem;
+}
+.item .second,
+.item .third,
+.item .fourth,
+.item .fifth {
+  padding: 0 0.2rem;
+  margin-top: 0.1rem;
+  background: #fff;
 }
 
 /*# sourceMappingURL=my.css.map */
