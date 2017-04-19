@@ -1,0 +1,1 @@
+$(".topPic").css("background-image","url("+$("#tx").attr("src")+")")

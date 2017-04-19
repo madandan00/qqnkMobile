@@ -1,4 +1,4 @@
-﻿{
+{
     "@platforms": ["android", "iPhone", "iPad"],
     "id": "",/*应用的标识，创建应用时自动生成，勿手动修改*/
     "name": "qqnkM",/*应用名称，程序桌面图标名称*/
@@ -199,5 +199,58 @@
                 }
             }
         }
-    }
+    },
+	"dependencies": {
+		"pages": {
+			"index.html": {
+				"resources": [
+					"img/index/nav_1.png",
+					"img/index/2.jpg",
+					"img/index/title_1.png",
+					"css/public.css",
+					"img/index/nav_2.png",
+					"css/swiper-3.4.2.min.css",
+					"css/index.css",
+					"img/index/nav_3.png",
+					"img/index/limted_1.png",
+					"img/index/logo.png",
+					"img/index/goods_01.png",
+					"js/zepto.min.js",
+					"img/index/nav_4.png",
+					"img/index/1.jpg",
+					"img/index/active_1.png",
+					"img/index/banner1.png",
+					"js/swiper-3.4.2.jquery.min.js"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"my.html": {
+				"resources": [
+					"css/my.css",
+					"js/my.js",
+					"js/zepto.min.js",
+					"css/public.css"
+				],
+				"refer": [],
+				"priority": 0
+			}
+		},
+		"idle": {
+			"resources": [
+				"img/index/img3.jpg",
+				"css/blur.svg",
+				"css/my.scss",
+				"css/index.scss",
+				"img/aboutUs_03.jpg",
+				"img/index/5.jpg",
+				"img/index/4.jpg",
+				"img/index/3.jpg",
+				"img/index/img1.jpg",
+				"css/index.css.map",
+				"css/my.css.map",
+				"README.md"
+			]
+		}
+	}
 }

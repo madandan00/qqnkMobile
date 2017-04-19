@@ -1,0 +1,33 @@
+{
+  "index.html": {
+    "resources": [
+      "img/index/nav_1.png",
+      "img/index/2.jpg",
+      "img/index/title_1.png",
+      "css/public.css",
+      "img/index/nav_2.png",
+      "css/swiper-3.4.2.min.css",
+      "css/index.css",
+      "img/index/nav_3.png",
+      "img/index/limted_1.png",
+      "img/index/logo.png",
+      "img/index/goods_01.png",
+      "js/zepto.min.js",
+      "img/index/nav_4.png",
+      "img/index/1.jpg",
+      "img/index/active_1.png",
+      "img/index/banner1.png",
+      "js/swiper-3.4.2.jquery.min.js"
+    ],
+    "refer": []
+  },
+  "my.html": {
+    "resources": [
+      "css/my.css",
+      "js/my.js",
+      "js/zepto.min.js",
+      "css/public.css"
+    ],
+    "refer": []
+  }
+}
