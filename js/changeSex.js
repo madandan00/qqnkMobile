@@ -1,0 +1,28 @@
+$(".sex").on("click",function(){
+	$(".mark").show();
+	$("#sex").show();
+})
+$("#boy").on("click",function(){
+	$.ajax({
+		type:"get",
+		data:{"sex":"男"},
+		url:"",
+		async:true
+	});
+	$(".mark").hide();
+	$("#sex").hide();
+})
+$("#girl").on("click",function(){
+	$.ajax({
+		type:"get",
+		data:{"sex":"女"},
+		url:"",
+		async:true
+	});
+	$(".mark").hide();
+	$("#sex").hide();
+})
+$(".sexCancel").on("click",function(){
+	$(".mark").hide();
+	$("#sex").hide();
+})

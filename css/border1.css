@@ -1,0 +1,20 @@
+.border1 {
+  position: relative;
+  border: none;
+}
+
+.border1:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  height: 2px;
+  bottom: 0px;
+  background: #e5e5e5;
+  width: 100%;
+  -webkit-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+
+/*# sourceMappingURL=border1.css.map */

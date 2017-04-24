@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<link rel="stylesheet" href="css/public.css" />
+		<script type="text/javascript">
+			document.addEventListener('plusready', function() {
+				//console.log("所有plus api都应该在此事件发生后调用，否则会出现plus is undefined。"
+
+			});
+
+			function captureImage() {
+				var cmr = plus.camera.getCamera(2);
+				var res = cmr.supportedImageResolutions[0];
+				var fmt = cmr.supportedImageFormats[0];
+				console.log("Resolution: " + res + ", Format: " + fmt);
+				cmr.captureImage(function(path) {
+						alert("Capture image success: " + path);
+					},
+					function(error) {
+						alert("Capture image failed: " + error.message);
+					}, {
+						resolution: res,
+						format: fmt
+					}
+				);
+			}
+		</script>
+		<style>
+			button{
+				
+			}
+		</style>
+	</head>
+
+	<body>
+		<button onclick="captureImage()">拍照</button>
+	</body>
+
+</html>

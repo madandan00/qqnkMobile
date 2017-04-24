@@ -29,5 +29,16 @@
       "css/public.css"
     ],
     "refer": []
+  },
+  "camera.html": {
+    "resources": [
+      "css/public.css"
+    ],
+    "refer": []
+  },
+  "camera0.html": {
+    "resources": [
+      "css/public.css"
+    ]
   }
 }

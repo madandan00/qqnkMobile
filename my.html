@@ -8,8 +8,11 @@
 		<title></title>
 		<link rel="stylesheet" href="css/public.css" />
 		<link rel="stylesheet" href="css/my.css" />
-		<link rel="stylesheet" href="//at.alicdn.com/t/font_vsw3oxnpqebqpvi.css" />
-		<!--<link rel="stylesheet" href="font/iconfont.css" />-->
+		<link rel="stylesheet" href="css/border1.css" />
+		<link rel="stylesheet" href="css/bottomNav.css" />
+		<script type="text/javascript" src="js/public.js"></script>
+		
+		<link rel="stylesheet" href="//at.alicdn.com/t/font_wrxuxpahavih33di.css" />
 		<script type="text/javascript">
 			document.addEventListener('plusready', function() {
 				//console.log("所有plus api都应该在此事件发生后调用，否则会出现plus is undefined。"
@@ -23,17 +26,20 @@
 
 			<div class="top">
 				<div class="topPic">
- <div class="mark"></div>
+					<div class="mark"></div>
 				</div>
-				
 				<div class="topContent">
+					<!--头像-->
 					<div class="headPic">
 						<img id="tx" src="http://img17.3lian.com/d/file/201701/16/800e21552a0592243bf6e315e8f74007.jpg" />
-						<a href=""><i class="iconfont icon-xiugai"></i></a>
+						<!--修改信息-->
+						<a href="myInfo.html" ><i class="iconfont icon-xiugai"></i></a>
 					</div>
+					<!--用户名-->
 					<p class="name"><span> 妞妞</span></p>
+					<!--余额与充值-->
 					<div class="remianMoney">
-						<div><b>0</b><span>余额</span><strong class="iconfont icon-shugang"></strong>
+						<div><b>23</b><span>余额</span><strong class="iconfont icon-shugang"></strong>
 							<a href=""><i>充值</i></a>
 						</div>
 					</div>
@@ -43,11 +49,13 @@
 			</div>
 			<div class="item">
 				<div class="first">
+					<!--我的订单-->
 					<div class="list border1">
 						<a href="">
 							<p><i class="iconfont icon-order"></i><span>我的订单</span><b class="iconfont icon-iconfontjiantouyou"></b></p>
 						</a>
 					</div>
+					<!--待付款，待发货，待收货，待评价，退换货-->
 					<div class="buyState clearfix">
 						<a href="">
 							<ul>
@@ -103,16 +111,19 @@
 					</div>
 				</div>
 				<div class="second">
+					<!--我的收藏-->
 					<div class="list border1">
 						<a href="">
 							<p><i class="iconfont icon-shouc01"></i><span>我的收藏</span><b class="iconfont icon-iconfontjiantouyou"></b></p>
 						</a>
 					</div>
+					<!--我的优惠券-->
 					<div class="list border1">
 						<a href="">
 							<p><i class="iconfont icon-youhuiquan"></i><span>我的优惠券</span><b class="iconfont icon-iconfontjiantouyou"></b></p>
 						</a>
 					</div>
+					<!--我的足迹-->
 					<div class="list">
 						<a href="">
 							<p><i class="iconfont icon-zuji-copy"></i><span>我的足迹</span><b class="iconfont icon-iconfontjiantouyou"></b></p>
@@ -120,6 +131,7 @@
 					</div>
 				</div>
 				<div class="third ">
+					<!--收货地址管理-->
 					<div class=" list">
 						<a href="">
 							<p><i class="iconfont icon-shouhuodizhi"></i><span>收货地址管理</span><b class="iconfont icon-iconfontjiantouyou"></b></p>
@@ -127,6 +139,7 @@
 					</div>
 				</div>
 				<div class="fourth">
+					<!--联系客服-->
 					<div class="list">
 						<a href="">
 							<p><i class="iconfont icon-lianxikefu"></i><span>联系客服</span><b class="iconfont icon-iconfontjiantouyou"></b></p>
@@ -134,6 +147,7 @@
 					</div>
 				</div>
 				<div class="fifth ">
+					<!--设置-->
 					<div class="list">
 						<a href="">
 							<p><i class="iconfont icon-shezhi"></i><span>设置</span><b class="iconfont icon-iconfontjiantouyou"></b></p>
@@ -151,26 +165,24 @@
 						<span>首页</span>
 					</li>
 				</a>
-				<a>
-					<li>
-						<i class="ico iconfont icon-fenlei"></i>
-						<span>分类</span>
-					</li>
-				</a>
-				<a>
-					<li>
-						<i class="ico iconfont icon-gouwuche"><span class="sum">0</span></i>
-						<span>购物车</span>
-					</li>
-				</a>
+				<li>
+					<i class="ico iconfont icon-fenlei"></i>
+					<span>分类</span>
+				</li>
+				<li>
+					<i class="ico iconfont icon-gouwuche"><span class="sum">0</span></i>
+					<span>购物车</span>
+				</li>
 				<a href="my.html">
-					<li class="active">
+
+					<li class="active my">
 						<i class="ico iconfont icon-iconfontwohover"></i>
 						<span>我的</span>
 					</li>
 				</a>
 			</ul>
 		</div>
+
 	</body>
 	<script type="text/javascript" src="js/zepto.min.js"></script>
 	<script type="text/javascript" src="js/my.js"></script>

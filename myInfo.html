@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<title></title>
+		<link rel="stylesheet" href="css/public.css" />
+		<link rel="stylesheet" href="css/border1.css" />
+		<link rel="stylesheet" href="css/myInfo.css" />
+		<link rel="stylesheet" href="//at.alicdn.com/t/font_wrxuxpahavih33di.css" />
+		<script type="text/javascript" src="js/public.js"></script>
+		<script type="text/javascript">
+			document.addEventListener('plusready', function() {
+				//console.log("所有plus api都应该在此事件发生后调用，否则会出现plus is undefined。"
+
+			});
+		</script>
+
+	</head>
+
+	<body>
+		<div class="mark">
+
+		</div>
+		<div class="wrapper">
+			<div class="tit border1">
+				<p><i class="iconfont icon-zuojiantou back"></i><span>我的信息</span></p>
+			</div>
+			<div class="content">
+				<!--头像-->
+
+				<div class="listBox">
+					<input id="Pic" type="file" accept="image/*" value="照片" />
+					<div class="list border1 " style="height: 1rem;" id="touXiang">
+						<span style="line-height: 1rem;">头像</span>
+						<b class="iconfont icon-iconfontjiantouyou touxiang" style="line-height: 1rem;display:none;"></b>
+						<img src="http://img17.3lian.com/d/file/201701/16/800e21552a0592243bf6e315e8f74007.jpg" class="touxiang">
+					</div>
+				</div>
+
+				<!--账号-->
+				<a href="">
+					<div class="listBox">
+						<div class="list border1">
+							<span>账号</span>
+							<b class="iconfont icon-iconfontjiantouyou"></b>
+							<i>Weixin-12</i>
+						</div>
+					</div>
+				</a>
+				<!--手机号-->
+				<a href="">
+					<div class="listBox">
+						<div class="list border1">
+							<span>手机号</span>
+							<b class="iconfont icon-iconfontjiantouyou"></b>
+							<i>12345678912</i>
+						</div>
+					</div>
+				</a>
+				<!--昵称-->
+				<a href="changeNicheng.html">
+					<div class="listBox">
+						<div class="list border1">
+							<span>昵称</span>
+							<b class="iconfont icon-iconfontjiantouyou"></b>
+							<i>阿泽泽</i>
+						</div>
+					</div>
+				</a>
+				<!--真实姓名-->
+				<a href="changeRealName.html">
+					<div class="listBox">
+						<div class="list border1">
+							<span>真实姓名</span>
+							<b class="iconfont icon-iconfontjiantouyou"></b>
+							<i>阿泽泽</i>
+						</div>
+					</div>
+				</a>
+				<!--性别-->
+				
+					<div class="listBox sex">
+						<div class="list border1">
+							<span>性别</span>
+							<b class="iconfont icon-iconfontjiantouyou"></b>
+							<i>女</i>
+						</div>
+					</div>
+
+					<div id="sex">
+						<div class="cont">
+							<p class="border1 first" id="boy">男</p>
+							<p class="second" id="girl">女</p>
+							<p class="sexCancel">取消</p>
+						</div>
+					</div>
+
+				
+				<!--生日-->
+
+				<div class="listBox birthday">
+					<div class="list border1 ">
+						<span>生日</span>
+						<b class="iconfont icon-iconfontjiantouyou"></b>
+						<i>2017-04-17</i>
+					</div>
+				</div>
+				<div id="calendar">
+					<div class="calendars">
+						<input type="text" class="calendar1" placeholder="请选择生日" value="2012.13" />
+						<input type="date" class="calendar2" />
+					</div>
+					<p class="second"><span class="sure">确定</span> <span class="cancel">取消</span></p>
+				</div>
+				<!--账户安全-->
+				<a href="">
+					<div class="listBox">
+						<div class="list" style="margin-top: 0.1rem;height: 0.9rem;">
+							<span>账户安全</span>
+							<b class="iconfont icon-iconfontjiantouyou"></b>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+
+	</body>
+	<script type="text/javascript" src="js/zepto.min.js"></script>
+	<script type="text/javascript" src="js/back.js"></script>
+	<script type="text/javascript" src="js/myInfo.js"></script>
+    <script type="text/javascript" src="js/changeSex.js" ></script>
+</html>
