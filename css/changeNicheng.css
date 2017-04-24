@@ -1,40 +1,44 @@
-.tit {
-  font-size: 14px;
-  width: 100%;
-  height: 0.88rem;
-  background: #fff;
-  padding: 0 0.2rem;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  text-align: center;
-}
-.tit i,
-.tit span {
-  line-height: 0.88rem;
-  color: #000;
-}
-.tit i {
-  float: left;
-  font-size: 0.3rem;
-}
-.tit span {
-  font-size: 0.36rem;
-}
-
 .content {
   padding: 0rem 0.2rem;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   font-size: 14px;
+  padding-top: 0.1rem;
 }
 .content div {
   width: 100%;
   height: 0.8rem;
-  margin-top: 0.5rem;
+  margin-top: 0.4rem;
   background: #fff;
   border-radius: 0.1rem;
+  position: relative;
+}
+.content div span {
+  display: inline-block;
+  font-size: 0.26rem;
+  text-align: center;
+  width: 1.7rem;
+  position: absolute;
+  right: 0;
+  line-height: 0.8rem;
+  background: #ff8b00;
+  color: #fff;
+  border-radius: 0 0.1rem 0.1rem 0;
+}
+.content div b {
+  font-weight: normal;
+  line-height: 0.8rem;
+  margin-left: 0.2rem;
+  font-size: 0.2rem;
+  color: #333;
+}
+.content div strong {
+  font-weight: normal;
+  line-height: 0.8rem;
+  margin-left: 0.2rem;
+  font-size: 0.2rem;
+  color: #333;
 }
 .content div label {
   font-size: 0.28rem;
@@ -43,39 +47,47 @@
   float: left;
   margin-left: 0.2rem;
 }
-.content div #nc, .content div #xm {
+.content div .in {
   font-size: 0.26rem;
   border: none;
   height: 0.8rem;
   line-height: 0.8rem;
   margin-left: 0.2rem;
-  width: 4.6rem;
+  width: 4rem;
 }
-.content div #nc::-webkit-input-placeholder {
+.content div .in::-webkit-input-placeholder {
   color: #666;
 }
-.content div #nc::-moz-placeholder {
+.content div .in::-moz-placeholder {
   color: #666;
 }
-.content div #nc::-moz-placeholder {
+.content div .in::-moz-placeholder {
   color: #666;
 }
-.content div #nc:-ms-input-placeholder {
+.content div .in:-ms-input-placeholder {
   color: #666;
 }
-.content div #xm::-webkit-input-placeholder {
+.content div .in::-webkit-input-placeholder {
   color: #666;
 }
-.content div #xm::-moz-placeholder {
+.content div .in::-moz-placeholder {
   color: #666;
 }
-.content div #xm::-moz-placeholder {
+.content div .in::-moz-placeholder {
   color: #666;
 }
-.content div #xm:-ms-input-placeholder {
+.content div .in:-ms-input-placeholder {
   color: #666;
+}
+.content div i {
+  color: #333;
+  font-size: 0.4rem;
+  line-height: 0.8rem;
+  position: absolute;
+  right: 0.2rem;
 }
 .content .tj {
+  display: inline-block;
   width: 100%;
   height: 0.8rem;
   margin-top: 0.4rem;
@@ -83,6 +95,10 @@
   border: none;
   color: #fff;
   border-radius: 0.1rem;
+  font-size: 0.3rem;
+  line-height: 0.8rem;
+  text-align: center;
+  color: #fff;
 }
 
 /*# sourceMappingURL=changeNicheng.css.map */

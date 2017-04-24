@@ -1,0 +1,54 @@
+.listBox {
+  position: relative;
+  width: 100%;
+  padding: 0 0.2rem;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  background: #fff;
+}
+
+.list {
+  padding: 0 0.2rem;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  background: #fff;
+  width: 100%;
+  font-size: 14px;
+  height: 0.8rem;
+  background: #fff;
+  position: relative;
+  right: 0;
+  top: 0;
+}
+.list i,
+.list span,
+.list b {
+  line-height: 0.8rem;
+}
+.list i {
+  color: #333;
+  float: right;
+  font-size: 0.24rem;
+  margin-right: 0.2rem;
+}
+.list img {
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 100%;
+  float: right;
+  margin-right: 0.2rem;
+  margin-top: 0.1rem;
+}
+.list b {
+  color: #666;
+  font-size: 0.24rem;
+  float: right;
+}
+.list span {
+  color: #333;
+  font-size: 0.28rem;
+}
+
+/*# sourceMappingURL=security.css.map */
