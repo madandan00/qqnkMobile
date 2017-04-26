@@ -1,5 +1,5 @@
 
-.content{
+.content,.contentBox{
     padding: 0rem 0.2rem ;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -12,6 +12,8 @@
         margin-top: 0.4rem;
         background: #fff;
         border-radius: 0.1rem;
+        -moz-border-radius: 0.1rem;
+       -webkit-border-radius: 0.1rem;
         position: relative;
         span{
             display: inline-block;
@@ -24,6 +26,8 @@
             background: #ff8b00;
             color: #fff;
             border-radius: 0 0.1rem 0.1rem 0;
+            -moz-border-radius: 0 0.1rem 0.1rem 0;
+            -webkit-border-radius: 0 0.1rem 0.1rem 0;
         }
         b{
             font-weight: normal;
@@ -40,10 +44,9 @@
             color: #333;
         }
         label{
-            font-size: 0.28rem;
+            font-size: 0.26rem;
             color: #333;
             line-height: 0.8rem;
-            float: left;
             margin-left: 0.2rem;
         }
         .in{
@@ -53,6 +56,7 @@
             line-height: 0.8rem;
             margin-left: 0.2rem;
             width:4rem;
+            vertical-align:middle;
         }
         .in::-webkit-input-placeholder{
             color: #666;
@@ -98,9 +102,27 @@
         border:none;
         color: #fff;
         border-radius: 0.1rem;
+        -moz-border-radius: 0.1rem;
+       -webkit-border-radius: 0.1rem;
         font-size: 0.3rem;
         line-height: 0.8rem;
         text-align: center;
         color: #fff;
+    }
+    .next{
+        background: #999;
+    }
+    .nextActive{
+        background: #FF8B00;
+    }
+    
+}
+.tip{
+    font-size: 0.2rem;
+    color: #333;
+    text-align: center;
+    margin-top: 0.2rem;
+    span{
+        color: #ff8b00;
     }
 }

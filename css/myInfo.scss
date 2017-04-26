@@ -71,6 +71,8 @@
         width: 0.8rem;
         height: 0.8rem;
         border-radius: 100%;
+        -moz-border-radius: 100%;
+        -webkit-border-radius: 100%;
         float: right;
         margin-right: 0.2rem;
         margin-top: 0.1rem;
@@ -178,6 +180,8 @@
     .xb{
         
             border-radius: 0.2rem;
+            -moz-border-radius: 0.2rem;
+            -webkit-border-radius: 0.2rem;
         
     }
     p {
@@ -191,13 +195,19 @@
     }
     .first{
         border-radius: 0.1rem 0.1rem 0 0 ;
+        -moz-border-radius: 0.1rem 0.1rem 0 0; 
+        -webkit-border-radius: 0.1rem 0.1rem 0 0;
     }
     .second{
         border-radius: 0 0 0.1rem 0.1rem;
+        -moz-border-radius: 0 0 0.1rem 0.1rem;
+        -webkit-border-radius:0 0 0.1rem 0.1rem;
     }
     .sexCancel {
         margin-top: 0.2rem;
         margin-top: 0.2rem;
         border-radius: 0.1rem;
+        -moz-border-radius: 0.1rem;
+        -webkit-border-radius: 0.1rem;
     }
 }

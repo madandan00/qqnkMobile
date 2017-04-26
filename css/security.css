@@ -37,6 +37,8 @@
   width: 0.8rem;
   height: 0.8rem;
   border-radius: 100%;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
   float: right;
   margin-right: 0.2rem;
   margin-top: 0.1rem;
