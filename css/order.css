@@ -1,0 +1,229 @@
+.wrapper {
+  padding-top: 1.68rem;
+}
+
+.ctr {
+  width: 100%;
+  height: 0.8rem;
+  font-size: 14px;
+  background: #fff;
+  position: fixed;
+  left: 0;
+  top: 0.88rem;
+  z-index: 2000;
+}
+.ctr .btn {
+  font-size: 0.28rem;
+  color: #333;
+  height: 0.8rem;
+  width: 20%;
+  float: left;
+  line-height: 0.8rem;
+  text-align: center;
+}
+.ctr .btnActive {
+  color: #FF8B00;
+}
+
+.kong {
+  width: 100%;
+  text-align: center;
+}
+.kong img {
+  margin: 0 auto;
+  width: 3.65rem;
+  height: 2.11rem;
+  margin-top: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+.kong p {
+  width: 100%;
+  font-size: 0.26rem;
+  color: #999;
+  text-align: center;
+  line-height: 0.36rem;
+}
+
+.swiper-containerL {
+  width: 100%;
+  font-size: 14px;
+  height: 100%;
+  background: #fff;
+  margin-top: 0.2rem;
+}
+
+.order {
+  padding: 0 0.2rem;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  background: #fff;
+}
+.order .order-top {
+  height: 0.66rem;
+}
+.order .order-top div {
+  width: 50%;
+  height: 0.66rem;
+  float: left;
+}
+.order .order-top span,
+.order .order-top p {
+  height: 0.66rem;
+  line-height: 0.66rem;
+  vertical-align: middle;
+}
+.order .order-top span {
+  font-size: 0.26rem;
+  color: #333;
+}
+.order .order-top .orderNum {
+  margin-left: 0.1rem;
+}
+.order .order-top p {
+  text-align: right;
+  font-size: 0.22rem;
+  color: #999;
+}
+.order .order-operation {
+  width: 100%;
+  height: 0.9rem;
+  overflow: hidden;
+}
+.order .order-operation p {
+  float: right;
+  text-align: right;
+}
+.order .order-operation span {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  width: 1.2rem;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  vertical-align: middle;
+  text-align: center;
+  margin-top: 0.2rem;
+  margin-left: 0.1rem;
+  font-size: 0.26rem;
+}
+.order .order-operation .s1 {
+  border: 1px solid #FF8B00;
+  background: #fff;
+  border-radius: 0.1rem;
+  -webkit-border-radius: 0.1rem;
+  -moz-border-radius: 0.1rem;
+  color: #FF8B00;
+}
+.order .order-operation .s2 {
+  border: 1px solid #FF8B00;
+  border-radius: 0.1rem;
+  -webkit-border-radius: 0.1rem;
+  -moz-border-radius: 0.1rem;
+  background: #FF8B00;
+  color: #fff;
+}
+.order .order-operation .s3 {
+  border: 1px solid #999;
+  background: #fff;
+  border-radius: 0.1rem;
+  -webkit-border-radius: 0.1rem;
+  -moz-border-radius: 0.1rem;
+  color: #333;
+}
+.order .goodInfo {
+  background: #fff;
+  margin-top: 0.2rem;
+}
+.order .goodInfo .left {
+  width: 1.5rem;
+  float: left;
+  margin-right: 0.2rem;
+}
+.order .goodInfo .left img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.order .goodInfo .right {
+  width: 4.3rem;
+  height: 1.5rem;
+  position: relative;
+  float: left;
+}
+.order .goodInfo .right div {
+  width: 100%;
+}
+.order .goodInfo .right div span {
+  float: left;
+  width: 50%;
+}
+.order .goodInfo .right div .two {
+  text-align: right;
+}
+.order .goodInfo .right div + div {
+  margin-top: 0.03rem;
+}
+.order .goodInfo .right .second {
+  height: 0.3rem;
+}
+.order .goodInfo .right .second span {
+  height: 0.3rem;
+}
+.order .goodInfo .right .second .tow {
+  color: #999;
+}
+.order .goodInfo .right .state {
+  position: absolute;
+  bottom: 0;
+}
+.order .goodInfo .right .state2 {
+  font-size: 0.2rem;
+  color: #FF8B00;
+}
+.order .goodInfo .right .price {
+  font-size: 0.24rem;
+  color: #333;
+  line-height: 0.4rem;
+}
+.order .goodInfo .right .good-price {
+  font-size: 0.24rem;
+  color: #333;
+  line-height: 0.4rem;
+}
+.order .goodInfo .right .good-name {
+  width: 2.9rem;
+  line-height: 0.4rem;
+  font-size: 0.24rem;
+  color: #333;
+}
+.order .goodInfo .right .good-species,
+.order .goodInfo .right .good-num {
+  font-size: 0.24rem;
+  line-height: 0.3rem;
+  color: #999;
+}
+.order .buyInfo {
+  width: 100%;
+  height: 0.65rem;
+  border-bottom: 1px dashed #E5E5E5;
+}
+.order .buyInfo p {
+  text-align: right;
+  height: 0.65rem;
+  line-height: 0.65rem;
+}
+.order .buyInfo p b {
+  color: #FF8B00;
+}
+.order .buyInfo p span {
+  margin-left: 0.2rem;
+}
+.order .buyInfo p span:first-of-type {
+  color: #999;
+}
+.order .buyInfo p span:last-of-type,
+.order .buyInfo p i {
+  color: #333;
+}
+
+/*# sourceMappingURL=order.css.map */

@@ -1,0 +1,140 @@
+.box1 {
+    font-size: 14px;
+}
+.remainMoney {
+    width: 100%;
+    height: 1.6rem;
+    background: #fff;
+    overflow: hidden;
+    p {
+        text-align: center;
+        margin-top: 0.18rem;
+    }
+    p:first-child {
+        font-size: 0.22rem;
+        color: #333;
+    }
+    .second {
+        font-size: 0.3rem;
+        color: #FF8B00;
+    }
+    .third {
+        span {
+            background: #FF8B00;
+            color: #fff;
+            font-size: 0.2rem;
+            padding: 0.05rem 0.2rem;
+            border-radius: 0.5rem;
+            -webkit-border-radius: 0.5rem;
+            -moz-border-radius: 0.5rem;
+        }
+    }
+}
+.much {
+    background: #fff;
+    margin-top: 0.2rem;
+    label {
+        font-size: 0.26rem;
+        color: #333;
+        line-height: 0.8rem;
+        margin-left: 0.2rem;
+    }
+    .in {
+        font-size: 0.26rem;
+        border: none;
+        height: 0.8rem;
+        line-height: 0.8rem;
+        margin-left: 0.2rem;
+        width: 4rem;
+        vertical-align: middle;
+    }
+    .in::-webkit-input-placeholder {
+        color: #666;
+    }
+    .in::-moz-placeholder {
+        color: #666;
+    }
+    .in::-moz-placeholder {
+        color: #666;
+    }
+    .in:-ms-input-placeholder {
+        color: #666;
+    }
+    .in::-webkit-input-placeholder {
+        color: #666;
+    }
+    .in::-moz-placeholder {
+        color: #666;
+    }
+    .in::-moz-placeholder {
+        color: #666;
+    }
+    .in:-ms-input-placeholder {
+        color: #666;
+    }
+}
+.btn {
+    padding: 0 0.2rem;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    .tj {
+        display: inline-block;
+        width: 100%;
+        height: 0.8rem;
+        margin-top: 0.4rem;
+        background: #ff8b00;
+        border: none;
+        color: #fff;
+        border-radius: 0.1rem;
+        -moz-border-radius: 0.1rem;
+        -webkit-border-radius: 0.1rem;
+        font-size: 0.3rem;
+        line-height: 0.8rem;
+        text-align: center;
+        color: #fff;
+    }
+}
+.box2{
+    height: 0.8rem;
+    font-size: 14px;
+    display: none;
+    .listBox{
+        padding: 0 0.2rem;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        background: #fff;
+        img{
+            width:0.36rem;
+            height: 0.36rem;
+            margin-right: 0.2rem;
+        }
+        span{
+            font-size: 0.28rem;
+            color: #333;
+            height: 0.8rem;
+            line-height: 0.8rem;
+        }
+        i{
+            float: right;
+            height: 0.8rem;
+            line-height: 0.8rem;
+            font-size: 0.34rem;
+        }
+        b{
+            font-weight: normal;
+            color: #FF8B00;
+            font-size: 0.28rem;
+            height: 0.8rem;
+            line-height: 0.8rem;
+            margin-left: 0.2rem;
+            strong{
+               
+            }
+        }
+        .icon-duihao{
+            color: #FF8B00;
+        }
+    }
+}

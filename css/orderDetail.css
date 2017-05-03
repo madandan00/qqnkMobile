@@ -1,0 +1,393 @@
+.tit b {
+  float: right;
+  color: #999;
+  font-size: 0.26rem;
+  font-weight: normal;
+  line-height: 0.88rem;
+  position: absolute;
+  right: 0.2rem;
+}
+
+.wrapper div {
+  font-size: 14px;
+}
+.wrapper .box1 {
+  background: #fff;
+  padding: 0.1rem 0.2rem;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  margin-bottom: 0.2rem;
+}
+.wrapper .box1 p {
+  height: 0.44rem;
+  line-height: 0.44rem;
+  vertical-align: middle;
+}
+.wrapper .box1 p span {
+  color: #999;
+  font-size: 0.24rem;
+}
+.wrapper .box1 p i {
+  color: #333;
+  font-size: 0.24rem;
+}
+.wrapper .box2 {
+  padding: 0.1rem 0.2rem;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  background: #fff;
+  position: relative;
+  margin-bottom: 0.1rem;
+}
+.wrapper .box2 div {
+  float: left;
+}
+.wrapper .box2 .logo {
+  width: 0.74rem;
+  overflow: hidden;
+}
+.wrapper .box2 .logo i {
+  font-size: 0.4rem;
+  color: #999;
+  line-height: 0.6rem;
+  text-align: right;
+}
+.wrapper .box2 .font p:first-of-type {
+  font-size: 0.24rem;
+  color: #666;
+  line-height: 0.5rem;
+}
+.wrapper .box2 .font p:last-of-type {
+  font-size: 0.2rem;
+  color: #666;
+  font-size: 0.2rem;
+}
+.wrapper .box2 .font i {
+  position: absolute;
+  font-size: 0.2rem;
+  color: #999;
+  right: 0.2rem;
+  top: 0.2rem;
+}
+.wrapper .box3 {
+  padding: 0.1rem 0.2rem;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  background: #fff;
+  position: relative;
+  margin-bottom: 0.1rem;
+}
+.wrapper .box3 div {
+  float: left;
+}
+.wrapper .box3 .logo {
+  width: 0.74rem;
+  overflow: hidden;
+}
+.wrapper .box3 .logo i {
+  font-size: 0.4rem;
+  color: #999;
+  line-height: 0.6rem;
+  text-align: right;
+}
+.wrapper .box3 .font p:first-of-type {
+  font-size: 0.26rem;
+  color: #666;
+  line-height: 0.5rem;
+}
+.wrapper .box3 .font p:first-of-type span {
+  color: #333;
+}
+.wrapper .box3 .font p:first-of-type span + span {
+  margin-left: 0.6rem;
+}
+.wrapper .box3 .font p:last-of-type {
+  font-size: 0.2rem;
+  color: #333;
+  font-size: 0.26rem;
+}
+.wrapper .box3 .font i {
+  position: absolute;
+  font-size: 0.2rem;
+  color: #333;
+  right: 0.2rem;
+  top: 0.2rem;
+}
+.wrapper .box4 {
+  padding: 0 0.2rem;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  background: #fff;
+}
+.wrapper .box4 .payWay {
+  width: 100%;
+  height: 0.66rem;
+}
+.wrapper .box4 .payWay div {
+  width: 50%;
+  height: 0.66rem;
+  float: left;
+}
+.wrapper .box4 .payWay span,
+.wrapper .box4 .payWay p {
+  height: 0.66rem;
+  line-height: 0.66rem;
+  vertical-align: middle;
+}
+.wrapper .box4 .payWay span {
+  font-size: 0.26rem;
+  color: #333;
+}
+.wrapper .box4 .payWay .PayWay {
+  margin-left: 0.1rem;
+}
+.wrapper .box4 .payWay p {
+  text-align: right;
+  font-size: 0.26rem;
+  color: #333;
+}
+.wrapper .box4 .payMoney {
+  padding: 0.1rem 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.wrapper .box4 .payMoney p {
+  height: 0.46rem;
+}
+.wrapper .box4 .payMoney span {
+  font-size: 0.24rem;
+  color: #999;
+  width: 1.2rem;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  line-height: 0.46rem;
+  vertical-align: middle;
+}
+.wrapper .box4 .payMoney i {
+  color: #999;
+  font-size: 0.24rem;
+  line-height: 0.46rem;
+  vertical-align: middle;
+}
+.wrapper .box4 .payMoney .payMony-s {
+  color: #FF8B00;
+  font-size: 0.28rem;
+  line-height: 0.46rem;
+  vertical-align: middle;
+}
+.wrapper .box4 .payMoney .total {
+  width: 100%;
+  height: 0.94rem;
+  text-align: right;
+  border-top: 1px dashed   #e5e5e5;
+}
+.wrapper .box4 .payMoney .total span {
+  font-size: 0.26rem;
+  color: #333;
+  line-height: 0.94rem;
+  vertical-align: middle;
+}
+.wrapper .box4 .payMoney .total i {
+  font-size: 0.3rem;
+  color: #fe8b00;
+  line-height: 0.94rem;
+  vertical-align: middle;
+}
+
+.order {
+  padding: 0 0.2rem;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  background: #fff;
+  margin-bottom: 0.1rem;
+}
+.order .order-good {
+  margin-bottom: 0.2rem;
+}
+.order .order-top {
+  height: 0.66rem;
+}
+.order .order-top div {
+  width: 50%;
+  height: 0.66rem;
+  float: left;
+}
+.order .order-top span,
+.order .order-top p {
+  height: 0.66rem;
+  line-height: 0.66rem;
+  vertical-align: middle;
+}
+.order .order-top span {
+  font-size: 0.26rem;
+  color: #333;
+}
+.order .order-top .state1 {
+  margin-left: 0.1rem;
+  color: #FF8B00;
+}
+.order .order-top p {
+  text-align: right;
+  font-size: 0.22rem;
+  color: #999;
+}
+.order .order-operation {
+  width: 100%;
+}
+.order .order-operation p {
+  width: 100%;
+  border-top: 1px dashed #e5e5e5;
+}
+.order .order-operation p span {
+  height: 0.5rem;
+  line-height: 0.64rem;
+  vertical-align: middle;
+  text-align: center;
+  margin-top: 0.2rem;
+  margin-left: 0.1rem;
+  font-size: 0.24rem;
+}
+.order .order-operation p span:first-of-type {
+  color: #999;
+}
+.order .order-operation p span:last-of-type {
+  color: #333;
+}
+.order .order-operation div {
+  width: 50%;
+  float: left;
+  text-align: center;
+  height: 0.6rem;
+  margin-bottom: 0.2rem;
+}
+.order .order-operation div span {
+  font-size: 0.24rem;
+  color: #333;
+  line-height: 0.6rem;
+  vertical-align: middle;
+}
+.order .order-operation div i {
+  font-size: 0.3rem;
+  margin-right: 0.1rem;
+  color: #333;
+  line-height: 0.6rem;
+  vertical-align: middle;
+}
+.order .order-operation div:first-of-type {
+  border: 1px solid #e5e5e5;
+  border-radius: 0.1rem 0 0 0.1rem;
+  -webkit-border-radius: 0.1rem 0 0 0.1rem;
+  -moz-border-radius: 0.1rem 0 0 0.1rem;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.order .order-operation div:last-of-type {
+  border: 1px solid #e5e5e5;
+  border-radius: 0 0.1rem 0.1rem 0;
+  -webkit-border-radius: 0 0.1rem 0.1rem 0;
+  -moz-border-radius: 0.1rem 0 0 0.1rem;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.order .goodInfo {
+  background: #fff;
+  margin-top: 0.2rem;
+}
+.order .goodInfo .left {
+  width: 1.5rem;
+  float: left;
+  margin-right: 0.2rem;
+}
+.order .goodInfo .left img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.order .goodInfo .right {
+  width: 4.3rem;
+  height: 1.5rem;
+  position: relative;
+  float: left;
+}
+.order .goodInfo .right div {
+  width: 100%;
+}
+.order .goodInfo .right div span {
+  float: left;
+  width: 50%;
+}
+.order .goodInfo .right div .two {
+  text-align: right;
+}
+.order .goodInfo .right div + div {
+  margin-top: 0.03rem;
+}
+.order .goodInfo .right .second {
+  height: 0.3rem;
+}
+.order .goodInfo .right .second span {
+  height: 0.3rem;
+}
+.order .goodInfo .right .state {
+  position: absolute;
+  bottom: 0;
+}
+.order .goodInfo .right .state2 {
+  font-size: 0.2rem;
+  color: #FF8B00;
+}
+.order .goodInfo .right .price {
+  font-size: 0.24rem;
+  color: #333;
+  line-height: 0.4rem;
+}
+.order .goodInfo .right .good-price {
+  font-size: 0.24rem;
+  color: #333;
+  line-height: 0.4rem;
+}
+.order .goodInfo .right .good-name {
+  width: 2.9rem;
+  line-height: 0.4rem;
+  font-size: 0.24rem;
+  color: #333;
+}
+.order .goodInfo .right .good-species,
+.order .goodInfo .right .good-num {
+  font-size: 0.24rem;
+  line-height: 0.3rem;
+  color: #999;
+}
+.order .buyInfo {
+  width: 100%;
+  height: 0.65rem;
+  border-bottom: 1px dashed #E5E5E5;
+}
+.order .buyInfo p {
+  text-align: right;
+  height: 0.65rem;
+  line-height: 0.65rem;
+}
+.order .buyInfo p b {
+  color: #FF8B00;
+}
+.order .buyInfo p span {
+  margin-left: 0.2rem;
+}
+.order .buyInfo p span:first-of-type {
+  color: #999;
+}
+.order .buyInfo p span:last-of-type,
+.order .buyInfo p i {
+  color: #333;
+}
+
+/*# sourceMappingURL=orderDetail.css.map */

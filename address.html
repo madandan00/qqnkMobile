@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<title></title>
+		<link rel="stylesheet" href="css/public.css" />
+		<link rel="stylesheet" href="css/border1.css" />
+		<link rel="stylesheet" href="css/top-back.css" />
+		<link rel="stylesheet" href="css/address.css" />
+		<link rel="stylesheet" href="css/hint.css" />
+		<link rel="stylesheet" href="//at.alicdn.com/t/font_qd0dbroptbv86w29.css" />
+		<script type="text/javascript" src="js/public.js"></script>
+	</head>
+
+	<body>
+		<div class="mark"></div>
+		<div class="tit border1">
+			<p><i class="iconfont icon-zuojiantou back"></i><span>收货地址管理</span>
+				<a href="addAddress.html" class="add"><b>添加</b></a>
+				<b class="save" style="display: none;">保存</b>
+			</p>
+		</div>
+		<div class="wrapper">
+			<div class="box1" >
+				<div class="listBox clearfix">
+					<div class="list">
+						<div class="top border1">
+							<div class="one clearfix">
+								<div class="left">
+									<span class="name">阿泽泽</span>
+								</div>
+								<div class="right">
+									<span class="phone">18888888888</span>
+								</div>
+							</div>
+							<div class="two">
+								<p >
+									<span class="addres1">北京市西城区 </span>
+									<span class="addres2">车公庄大街 五栋大楼B座2门601</span>
+								</p>
+							</div>
+						</div>
+						<div class="bot">
+							<div class="left">
+								<i class="iconfont icon-yuanquan choose "></i>
+								<span>默认地址</span>
+							</div>
+							<div class="right">
+								<strong class="edit"><i class="iconfont icon-bianji"></i>
+								<span>编辑</span></strong>
+								<strong class="remove"><i class="iconfont icon-shanchu"></i>
+								<span style="margin-right: 0;">删除</span></strong>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="listBox clearfix">
+					<div class="list">
+						<div class="top border1">
+							<div class="one clearfix">
+								<div class="left">
+									<span class="name">阿泽泽</span>
+								</div>
+								<div class="right">
+									<span class="phone">18888888888</span>
+								</div>
+							</div>
+							<div class="two">
+								<p >
+									<span class="addres1">北京市西城区 </span>
+									<span class="addres2">车公庄大街 五栋大楼B座2门601</span>
+								</p>
+							</div>
+						</div>
+						<div class="bot">
+							<div class="left">
+								<i class="iconfont icon-yuanquan choose "></i>
+								<span>默认地址</span>
+							</div>
+							<div class="right">
+								<strong class="edit"><i class="iconfont icon-bianji"></i>
+								<span>编辑</span></strong>
+								<strong class="remove"><i class="iconfont icon-shanchu"></i>
+								<span style="margin-right: 0;">删除</span></strong>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+           	<!--编辑页面-->
+			<div class="box2">
+				<div class="box">
+					<div class="border1">
+						<label for="nc">地区:</label>
+						<input type="text" value="" placeholder="市/区" class="in" maxlength="11" id="area">
+					</div>
+				</div>
+				<div class="box">
+					<div class="border1">
+						<label for="nc">详细地址:</label>
+						<input type="text" value=""  class="in" maxlength="11" id="detail">
+					</div>
+				</div>
+				<div class="box">
+					<div class="border1">
+						<label for="nc">收货人姓名:</label>
+						<input type="text" value=""  class="in" maxlength="11" id="name">
+					</div>
+				</div>
+				<div class="box">
+					<div class="border1">
+						<label for="nc">手机号码:</label>
+						<input type="text" value=""  class="in" maxlength="11" id="phone">
+					</div>
+				</div>
+				<div class="box">
+					<div >
+						<i class="iconfont icon-yuanquan choose "></i>
+					    <span>设为默认地址</span>
+					</div>
+				</div>
+				<span class="cancelAddress">删除地址</span>
+			</div>
+		</div>
+		<!--提示框-->
+		<div class="hint">
+			<p class="tip border1">确认要删除此地址？</p>
+			<p class="second">
+				<span class="cancelExit">取消</span>
+				<span class="SureExit">确认</span>
+			</p>
+		</div>
+
+	</body>
+	<script type="text/javascript" src="js/zepto.min.js" ></script>
+	<script type="text/javascript" src="js/back2.js" ></script>
+	<script type="text/javascript" src="js/address.js" ></script>
+
+</html>

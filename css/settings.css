@@ -79,42 +79,4 @@
   display: none;
 }
 
-.sureExit {
-  font-size: 14px;
-  width: 4.8rem;
-  height: 2.4rem;
-  position: fixed;
-  z-index: 1001;
-  left: 0.8rem;
-  top: 4rem;
-  display: none;
-  background: #fff;
-  border-radius: 0.1rem;
-  -moz-border-radius: 0.1rem;
-  -webkit-border-radius: 0.1rem;
-}
-.sureExit .first {
-  height: 1.48rem;
-  line-height: 1.48rem;
-  font-size: 0.3rem;
-  color: #000;
-  text-align: center;
-}
-.sureExit .second {
-  height: 0.9rem;
-  line-height: 0.9rem;
-}
-.sureExit .second span {
-  display: inline-block;
-  height: 0.9rem;
-  line-height: 0.9rem;
-  width: 2.3rem;
-  text-align: center;
-  font-size: 0.3rem;
-  color: #FF8B00;
-}
-.sureExit .second .SureExit {
-  border-left: 1px solid #e5e5e5;
-}
-
 /*# sourceMappingURL=settings.css.map */

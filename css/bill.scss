@@ -1,0 +1,68 @@
+.ctr {
+    width: 100%;
+    height: 0.8rem;
+    background: #fff;
+    font-size: 14px;
+    border-bottom: 1px solid #e5e5e5;
+    span {
+        width: 50%;
+        display: inline-block;
+        float: left;
+        font-size: 0.28rem;
+        color: #333;
+        height: 0.8rem;
+        line-height: 0.8rem;
+        vertical-align: middle;
+        text-align: center;
+    }
+    .border1:after {
+        background: #FF8B00;
+    }
+}
+.listBox {
+    padding: 0 0.2rem;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-size: 14px;
+    background: #fff;
+    .list{
+        height: 1rem;
+        div{
+            width:50%;
+            float: left;
+        }
+        div:first-child{
+            p{
+//              height: 0.5rem;
+//              line-height: 0.5rem;
+                font-size: 0.26rem;
+                color: #333;
+                margin-top: 0.2rem;
+            }
+            span{
+                height: 0.5rem;
+                line-height: 0.5rem;
+                font-size: 0.2rem;
+                color: #666;
+               
+            }
+        }
+        div:last-child{
+            p{
+                height: 1rem;
+                line-height: 1rem;
+                vertical-align: center;
+                font-size: 0.26rem;
+                color: #FF8B00;
+                text-align: right;
+            }
+        }
+    }
+}
+.swiper-slide .addB{
+    text-align: center;
+    margin-top: 0.2rem;
+    font-size: 0.2rem;
+    color: #666;
+}
