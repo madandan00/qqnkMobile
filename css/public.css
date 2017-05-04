@@ -1,6 +1,6 @@
 @charset "utf-8";
 /*reset*/
-body,button,input,select,textarea{font:100%/1 "Helvetica Neue",Helvetica,STHeiTi,"Microsoft YaHei" !important;}
+body,button,input,select{font:100%/1 "Helvetica Neue",Helvetica,STHeiTi,"Microsoft YaHei" !important;}
 body,h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,ol,li,th,td,p,blockquote,pre,form,fieldset,legend,input,button,textarea,article,aside,footer,header,hgroup,nav,section,menu{margin:0; padding:0;-webkit-text-size-adjust:100%;}
 table{border-collapse:collapse;border-spacing:0;}
 em,i{font-style:normal;}

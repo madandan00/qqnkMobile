@@ -1,0 +1,45 @@
+
+.listBox {
+     height: 1.2rem;
+    padding: 0 0.2rem;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-size: 14px;
+    background: #fff;
+    .list{
+        height: 100%;
+        div{
+            
+            float: left;
+        }
+        div:first-child{
+            width:80%;
+            p{
+//              height: 0.5rem;
+//              line-height: 0.5rem;
+                font-size: 0.36rem;
+                color: #333;
+                margin-top: 0.2rem;
+            }
+            span{
+                height: 0.5rem;
+                line-height: 0.5rem;
+                font-size: 0.26rem;
+                color: #666;
+               
+            }
+        }
+        div:last-child{
+             width:20%;
+            p{
+                height: 1rem;
+                line-height: 1rem;
+                vertical-align: center;
+                font-size: 0.26rem;
+                color: #363636;
+                text-align: right;
+            }
+        }
+    }
+}

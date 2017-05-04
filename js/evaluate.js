@@ -13,7 +13,10 @@ $(".pinglun").on("blur", function() {
 $(".pinglun").bind("keyup change", function() {
 		var val = $(this).val();
 		if(val != "亲！分享给想买的他们吧！") {
-			$(this).css("color", "#333")
+			$(this).css("color", "#333");
+			$(this).css({
+				"color":"#333"
+			})
 		} else {
 			$(this).css("color", "#ccc")
 		}

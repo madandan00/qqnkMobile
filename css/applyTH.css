@@ -1,0 +1,42 @@
+.listBox {
+  height: 1.2rem;
+  padding: 0 0.2rem;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  font-size: 14px;
+  background: #fff;
+}
+.listBox .list {
+  height: 100%;
+}
+.listBox .list div {
+  float: left;
+}
+.listBox .list div:first-child {
+  width: 80%;
+}
+.listBox .list div:first-child p {
+  font-size: 0.36rem;
+  color: #333;
+  margin-top: 0.2rem;
+}
+.listBox .list div:first-child span {
+  height: 0.5rem;
+  line-height: 0.5rem;
+  font-size: 0.26rem;
+  color: #666;
+}
+.listBox .list div:last-child {
+  width: 20%;
+}
+.listBox .list div:last-child p {
+  height: 1rem;
+  line-height: 1rem;
+  vertical-align: center;
+  font-size: 0.26rem;
+  color: #363636;
+  text-align: right;
+}
+
+/*# sourceMappingURL=applyTH.css.map */
