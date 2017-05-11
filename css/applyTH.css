@@ -38,5 +38,9 @@
   color: #363636;
   text-align: right;
 }
+.listBox .list div:last-child p span {
+  font-size: 0.26rem;
+  color: #363636;
+}
 
 /*# sourceMappingURL=applyTH.css.map */

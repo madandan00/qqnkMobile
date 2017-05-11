@@ -1,9 +1,15 @@
+.wrapper{
+    padding-top: 1.68rem;
+}
 .ctr {
     width: 100%;
     height: 0.8rem;
     background: #fff;
     font-size: 14px;
     border-bottom: 1px solid #e5e5e5;
+    position: fixed;
+    top:0.88rem;
+    left:0;
     span {
         width: 50%;
         display: inline-block;
@@ -18,6 +24,12 @@
     .border1:after {
         background: #FF8B00;
     }
+    .active{
+        color: #FE8B00;
+    }
+}
+.box{
+    width:100%;
 }
 .order {
     padding: 0 0.2rem;
@@ -28,9 +40,14 @@
     .order-top {
         height: 0.66rem;
         div {
-            width: 50%;
             height: 0.66rem;
             float: left;
+        }
+        div:first-of-type{
+            width:80%;
+        }
+        div:last-of-type{
+            width:20%;
         }
         span,
         p {

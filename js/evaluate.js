@@ -21,7 +21,7 @@ $(".pinglun").bind("keyup change", function() {
 			$(this).css("color", "#ccc")
 		}
 		if($(this).val().length > 200) {
-			window.confirm("请输入小于200字的内容");
+			alert("请输入小于200字的内容");
 			$(this).val(val.substring(0, 200));
 		} else {
 			$(".zhiNum").html(200 - $(this).val().length)

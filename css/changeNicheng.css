@@ -94,6 +94,8 @@
 }
 .content .tj, .contentBox .tj {
   display: inline-block;
+  *display: inline;
+  *zoom: 1;
   width: 100%;
   height: 0.8rem;
   margin-top: 0.4rem;

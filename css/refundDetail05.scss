@@ -1,0 +1,70 @@
+.tit {
+    strong {
+        font-weight: normal;
+        font-size: 0.36rem;
+        color: #999;
+        float: right;
+        line-height: 0.88rem;
+    }
+}
+.top{
+    height: 0.7rem;
+    background: #fff;
+    padding: 0 0.2rem;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    span{
+        line-height: 0.7rem;
+        font-size: 0.3rem;
+        color: #333;
+    }
+}
+.box{ 
+    background: #fff;
+    .left{
+        width:0.5rem;
+         padding: 0.4rem 0.2rem;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        float: left;
+        i{
+            line-height: 0.84rem;
+            color: #b3d929;
+        }
+    }
+    .right{
+        width:5.5rem;
+         padding: 0.4rem 0.2rem;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        float: left;
+        div:first-of-type{
+            span{
+                line-height: 0.44rem;
+                font-size: 0.26rem;
+                color: #333;
+                vertical-align: middle;
+            }
+            i{
+                line-height: 0.44rem;
+                font-size: 0.22rem;
+                color: #999;
+                vertical-align: middle;
+                float: right;
+            }
+        }
+        div:last-of-type{
+            span{
+                line-height: 0.4rem;
+                font-size: 0.22rem;
+                color: #999;
+                vertical-align: middle;
+               
+            }
+        }
+    }
+}
+

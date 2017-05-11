@@ -215,9 +215,14 @@
   height: 0.66rem;
 }
 .order .order-top div {
-  width: 50%;
   height: 0.66rem;
   float: left;
+}
+.order .order-top div:first-of-type {
+  width: 80%;
+}
+.order .order-top div:last-of-type {
+  width: 20%;
 }
 .order .order-top span,
 .order .order-top p {
@@ -274,7 +279,7 @@
   vertical-align: middle;
 }
 .order .order-operation div i {
-  font-size: 0.3rem;
+  font-size: 0.34rem;
   margin-right: 0.1rem;
   color: #333;
   line-height: 0.6rem;

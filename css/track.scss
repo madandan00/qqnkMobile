@@ -1,0 +1,52 @@
+.tit {
+    b {
+        font-weight: normal;
+        font-size: 0.3rem;
+        color: #666;
+        float: right;
+        line-height: 0.88rem;
+    }
+}
+.noItem {
+    font-size: 0.24rem;
+    color: #999;
+    line-height: 0.6rem;
+    text-align: center;
+}
+.content {
+    margin-top: 0.2rem;
+    width: 100%;
+    background: #fff;
+    div {
+        width: 50%;
+        height: 4.2rem;
+        float: left;
+       // position: relative;
+        img {
+            display: block;
+            width: 2.4rem;
+            height: 2.4rem;
+            margin: 0.2rem auto;
+        }
+        p {
+            font-size: 0.26rem;
+            color: #333;
+            line-height: 0.44rem;
+            padding: 0 0.2rem;
+            box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+        }
+        span {
+//          position: absolute;
+//          bottom: 0;
+            padding: 0 0.2rem;
+            box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            font-size: 0.28rem;
+            color: #FE8B00;
+            line-height: 0.42rem;
+        }
+    }
+}

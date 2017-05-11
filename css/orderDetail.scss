@@ -221,9 +221,14 @@
     .order-top {
         height: 0.66rem;
         div {
-            width: 50%;
             height: 0.66rem;
             float: left;
+        }
+        div:first-of-type{
+            width:80%;
+        }
+        div:last-of-type{
+            width:20%;
         }
         span,
         p {
@@ -285,7 +290,7 @@
                 vertical-align: middle;
             }
             i {
-                font-size: 0.3rem;
+                font-size: 0.34rem;
                 margin-right: 0.1rem;
                 color: #333;
                 line-height: 0.6rem;

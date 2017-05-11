@@ -1,0 +1,105 @@
+.tit {
+    strong {
+        font-weight: normal;
+        font-size: 0.36rem;
+        color: #999;
+        float: right;
+        line-height: 0.88rem;
+    }
+}
+.box1{
+    background: #fff;
+    margin-bottom: 0.2rem;
+    .top{
+        height: 1rem;
+        text-align: center;
+        i,span{
+            line-height: 1rem;
+        }
+        i{
+            font-size: 0.38rem;
+            color: #FE8B00;
+            margin-right: 0.2rem;
+        }
+        span{
+            font-size: 0.36rem;
+            color: #333;
+        }
+    }
+    .bot{
+        padding: 0.1rem 0.2rem;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        div{
+            height: 0.43rem;
+        }
+        span,i{
+            line-height: 0.43rem;
+        }
+        span{
+            font-size: 0.26rem;
+            color: #999;
+            margin-right: 0.2rem;
+        }
+        i{
+            font-size: 0.26rem;
+            color: #333;
+        }
+    }
+}
+.box2{
+    padding: 0 0.2rem;
+    height: 0.8rem;
+    width: 100%;
+    background: #fff;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin-bottom: 0.2rem;
+    span,i{
+        line-height: 0.8rem;
+    }
+    span{
+        font-size: 0.26rem;
+        color: #333;
+    }
+    i{
+        font-size: 0.3rem;
+        color: #666;
+        float: right;
+    }
+}
+.box3{
+    padding: 0 0.2rem;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background: #fff;
+    div:first-of-type{
+        height: 0.8rem;
+        span{
+            line-height: 0.8rem;
+            font-size: 0.26rem;
+            color: #333;
+        }
+    }
+    div:last-of-type{
+        padding: 0.1rem 0;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        span,i{
+            line-height: 0.4rem;
+        }
+        span{
+            font-size: 0.24rem;
+            color: #999;
+            margin-right: 0.2rem;
+        }
+        i{
+            font-size: 0.24rem;
+            color: #333;
+        }
+    }
+}

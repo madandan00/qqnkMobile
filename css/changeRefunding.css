@@ -1,9 +1,16 @@
+.wrapper {
+  padding-top: 1.68rem;
+}
+
 .ctr {
   width: 100%;
   height: 0.8rem;
   background: #fff;
   font-size: 14px;
   border-bottom: 1px solid #e5e5e5;
+  position: fixed;
+  top: 0.88rem;
+  left: 0;
 }
 .ctr span {
   width: 50%;
@@ -19,6 +26,13 @@
 .ctr .border1:after {
   background: #FF8B00;
 }
+.ctr .active {
+  color: #FE8B00;
+}
+
+.box {
+  width: 100%;
+}
 
 .order {
   padding: 0 0.2rem;
@@ -31,9 +45,14 @@
   height: 0.66rem;
 }
 .order .order-top div {
-  width: 50%;
   height: 0.66rem;
   float: left;
+}
+.order .order-top div:first-of-type {
+  width: 80%;
+}
+.order .order-top div:last-of-type {
+  width: 20%;
 }
 .order .order-top span,
 .order .order-top p {
