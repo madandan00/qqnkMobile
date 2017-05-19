@@ -11,6 +11,7 @@
   position: fixed;
   top: 0.88rem;
   left: 0;
+  z-index: 3;
 }
 .ctr span {
   width: 50%;

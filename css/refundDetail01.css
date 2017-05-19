@@ -8,7 +8,7 @@
 
 .stateBox {
   width: 100%;
-  height: 1.2rem;
+  height: 0.8rem;
   padding: 0.1rem 0.2rem 0;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -20,16 +20,10 @@
   height: 100%;
 }
 .stateBox p:first-of-type {
-  line-height: 0.48rem;
+  line-height: 0.6rem;
   vertical-align: middle;
   font-size: 0.3rem;
   color: #333;
-}
-.stateBox p:last-of-type {
-  line-height: 0.37rem;
-  vertical-align: middle;
-  font-size: 0.22rem;
-  color: #999;
 }
 
 .info {

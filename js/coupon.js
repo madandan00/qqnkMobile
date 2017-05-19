@@ -1,5 +1,10 @@
 $(".btn").on("click",function(){
 	//alert($(this).attr("data-slide"))
+	if(!$(this).hasClass("first")){
+		$(".adv").hide()
+	}else{
+		$(".adv").show()
+	}
 	$(".btn").removeClass("active");
 	$(this).addClass("active");
 	mySwiper.slideTo($(this).attr("data-slide"))

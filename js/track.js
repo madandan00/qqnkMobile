@@ -4,4 +4,5 @@ $(".clear").on("click",function(){
 		url:"",
 		async:true
 	});
+	$(".content").html("");
 })
