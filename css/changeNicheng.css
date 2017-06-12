@@ -4,127 +4,106 @@
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   font-size: 14px;
-  padding-top: 0.1rem;
-}
-.content div, .contentBox div {
-  width: 100%;
-  height: 0.8rem;
-  margin-top: 0.4rem;
-  background: #fff;
-  border-radius: 0.1rem;
-  -moz-border-radius: 0.1rem;
-  -webkit-border-radius: 0.1rem;
-  position: relative;
-}
-.content div span, .contentBox div span {
-  display: inline-block;
-  font-size: 0.26rem;
-  text-align: center;
-  width: 1.7rem;
-  position: absolute;
-  right: 0;
-  line-height: 0.8rem;
-  background: #ff8b00;
-  color: #fff;
-  border-radius: 0 0.1rem 0.1rem 0;
-  -moz-border-radius: 0 0.1rem 0.1rem 0;
-  -webkit-border-radius: 0 0.1rem 0.1rem 0;
-}
-.content div b, .contentBox div b {
-  font-weight: normal;
-  line-height: 0.8rem;
-  margin-left: 0.2rem;
-  font-size: 0.2rem;
-  color: #333;
-}
-.content div strong, .contentBox div strong {
-  font-weight: normal;
-  line-height: 0.8rem;
-  margin-left: 0.2rem;
-  font-size: 0.2rem;
-  color: #333;
-}
-.content div label, .contentBox div label {
-  font-size: 0.26rem;
-  color: #333;
-  line-height: 0.8rem;
-  margin-left: 0.2rem;
-  vertical-align: middle;
-  margin-top: 0;
-}
-.content div .in, .contentBox div .in {
-  font-size: 0.26rem;
-  border: none;
-  height: 0.8rem;
-  line-height: 0.8rem;
-  margin-left: 0.2rem;
-  width: 4rem;
-  vertical-align: middle;
-}
-.content div .in::-webkit-input-placeholder, .contentBox div .in::-webkit-input-placeholder {
-  color: #666;
-}
-.content div .in::-moz-placeholder, .contentBox div .in::-moz-placeholder {
-  color: #666;
-}
-.content div .in::-moz-placeholder, .contentBox div .in::-moz-placeholder {
-  color: #666;
-}
-.content div .in:-ms-input-placeholder, .contentBox div .in:-ms-input-placeholder {
-  color: #666;
-}
-.content div .in::-webkit-input-placeholder, .contentBox div .in::-webkit-input-placeholder {
-  color: #666;
-}
-.content div .in::-moz-placeholder, .contentBox div .in::-moz-placeholder {
-  color: #666;
-}
-.content div .in::-moz-placeholder, .contentBox div .in::-moz-placeholder {
-  color: #666;
-}
-.content div .in:-ms-input-placeholder, .contentBox div .in:-ms-input-placeholder {
-  color: #666;
-}
-.content div i, .contentBox div i {
-  color: #333;
-  font-size: 0.4rem;
-  line-height: 0.8rem;
-  position: absolute;
-  right: 0.2rem;
-}
-.content .tj, .contentBox .tj {
-  display: inline-block;
-  *display: inline;
-  *zoom: 1;
-  width: 100%;
-  height: 0.8rem;
-  margin-top: 0.4rem;
-  background: #ff8b00;
-  border: none;
-  color: #fff;
-  border-radius: 0.1rem;
-  -moz-border-radius: 0.1rem;
-  -webkit-border-radius: 0.1rem;
-  font-size: 0.3rem;
-  line-height: 0.8rem;
-  text-align: center;
-  color: #fff;
-}
-.content .next, .contentBox .next {
-  background: #999;
-}
-.content .nextActive, .contentBox .nextActive {
-  background: #FF8B00;
-}
+  padding-top: 0.1rem; }
+  .content div, .contentBox div {
+    width: 100%;
+    height: 0.8rem;
+    margin-top: 0.4rem;
+    background: #fff;
+    border-radius: 0.1rem;
+    -moz-border-radius: 0.1rem;
+    -webkit-border-radius: 0.1rem;
+    position: relative; }
+    .content div span, .contentBox div span {
+      display: inline-block;
+      font-size: 0.26rem;
+      text-align: center;
+      width: 1.7rem;
+      position: absolute;
+      right: 0;
+      line-height: 0.8rem;
+      background: #ff8b00;
+      color: #fff;
+      border-radius: 0 0.1rem 0.1rem 0;
+      -moz-border-radius: 0 0.1rem 0.1rem 0;
+      -webkit-border-radius: 0 0.1rem 0.1rem 0; }
+    .content div b, .contentBox div b {
+      font-weight: normal;
+      line-height: 0.8rem;
+      margin-left: 0.2rem;
+      font-size: 0.2rem;
+      color: #333; }
+    .content div strong, .contentBox div strong {
+      font-weight: normal;
+      line-height: 0.8rem;
+      margin-left: 0.2rem;
+      font-size: 0.2rem;
+      color: #333; }
+    .content div label, .contentBox div label {
+      font-size: 0.26rem;
+      color: #333;
+      line-height: 0.8rem;
+      margin-left: 0.2rem;
+      vertical-align: middle;
+      margin-top: 0; }
+    .content div .in, .contentBox div .in {
+      font-size: 0.26rem;
+      border: none;
+      height: 0.8rem;
+      line-height: 0.8rem;
+      margin-left: 0.2rem;
+      width: 4rem;
+      vertical-align: middle; }
+    .content div .in::-webkit-input-placeholder, .contentBox div .in::-webkit-input-placeholder {
+      color: #666; }
+    .content div .in::-moz-placeholder, .contentBox div .in::-moz-placeholder {
+      color: #666; }
+    .content div .in::-moz-placeholder, .contentBox div .in::-moz-placeholder {
+      color: #666; }
+    .content div .in:-ms-input-placeholder, .contentBox div .in:-ms-input-placeholder {
+      color: #666; }
+    .content div .in::-webkit-input-placeholder, .contentBox div .in::-webkit-input-placeholder {
+      color: #666; }
+    .content div .in::-moz-placeholder, .contentBox div .in::-moz-placeholder {
+      color: #666; }
+    .content div .in::-moz-placeholder, .contentBox div .in::-moz-placeholder {
+      color: #666; }
+    .content div .in:-ms-input-placeholder, .contentBox div .in:-ms-input-placeholder {
+      color: #666; }
+    .content div i, .contentBox div i {
+      color: #333;
+      font-size: 0.4rem;
+      line-height: 0.8rem;
+      position: absolute;
+      right: 0.2rem; }
+  .content .tj, .contentBox .tj {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 100%;
+    height: 0.8rem;
+    margin-top: 0.4rem;
+    background: #ff8b00;
+    border: none;
+    color: #fff;
+    border-radius: 0.1rem;
+    -moz-border-radius: 0.1rem;
+    -webkit-border-radius: 0.1rem;
+    font-size: 0.3rem;
+    line-height: 0.8rem;
+    text-align: center;
+    color: #fff; }
+  .content .next, .contentBox .next {
+    background: #999; }
+  .content .nextActive, .contentBox .nextActive {
+    background: #FF8B00; }
 
 .tip {
   font-size: 0.2rem;
   color: #333;
   text-align: center;
-  margin-top: 0.2rem;
-}
-.tip span {
-  color: #ff8b00;
-}
+  margin-top: 0.2rem; }
+  .tip span {
+    color: #ff8b00; }
 
 /*# sourceMappingURL=changeNicheng.css.map */

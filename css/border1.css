@@ -1,7 +1,6 @@
 .border1 {
   position: relative;
-  border: none;
-}
+  border: none; }
 
 .border1:after {
   content: '';
@@ -14,7 +13,6 @@
   -webkit-transform: scaleY(0.5);
   transform: scaleY(0.5);
   -webkit-transform-origin: 0 0;
-  transform-origin: 0 0;
-}
+  transform-origin: 0 0; }
 
 /*# sourceMappingURL=border1.css.map */

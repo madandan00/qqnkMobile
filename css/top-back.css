@@ -11,25 +11,20 @@
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  text-align: center;
-}
-.tit i,
-.tit span {
-  line-height: 0.88rem;
-  color: #000;
-}
-.tit i {
-  float: left;
-  font-size: 0.3rem;
-}
-.tit span {
-  font-size: 0.36rem;
-}
+  text-align: center; }
+  .tit i,
+  .tit span {
+    line-height: 0.88rem;
+    color: #000; }
+  .tit i {
+    float: left;
+    font-size: 0.3rem; }
+  .tit span {
+    font-size: 0.36rem; }
 
 .wrapper {
   padding-top: 0.88rem;
   height: auto;
-  font-size: 14px;
-}
+  font-size: 14px; }
 
 /*# sourceMappingURL=top-back.css.map */

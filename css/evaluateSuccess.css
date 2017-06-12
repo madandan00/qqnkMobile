@@ -5,172 +5,137 @@
   font-weight: normal;
   line-height: 0.88rem;
   position: absolute;
-  right: 0.2rem;
-}
+  right: 0.2rem; }
 
 .wrapper {
-  padding-top: 0.88rem;
-}
+  padding-top: 0.88rem; }
 
 .box1 .dis {
   height: 2rem;
   background: #fe9618;
   text-align: center;
-  overflow: hidden;
-}
-.box1 .dis p:first-of-type {
-  margin-top: 0.3rem;
-}
-.box1 .dis p:first-of-type i,
-.box1 .dis p:first-of-type span {
-  color: #fff;
-  height: 0.8rem;
-  line-height: 0.8rem;
-  vertical-align: middle;
-}
-.box1 .dis p:first-of-type span {
-  font-size: 0.26rem;
-}
-.box1 .dis p:first-of-type i {
-  font-size: 0.4rem;
-  margin-right: 0.2rem;
-}
-.box1 .dis p:last-of-type {
-  font-size: 0.22rem;
-  color: #fff;
-  height: 0.6rem;
-  line-height: 0.6rem;
-  vertical-align: middle;
-}
+  overflow: hidden; }
+  .box1 .dis p:first-of-type {
+    margin-top: 0.3rem; }
+    .box1 .dis p:first-of-type i,
+    .box1 .dis p:first-of-type span {
+      color: #fff;
+      height: 0.8rem;
+      line-height: 0.8rem;
+      vertical-align: middle; }
+    .box1 .dis p:first-of-type span {
+      font-size: 0.26rem; }
+    .box1 .dis p:first-of-type i {
+      font-size: 0.4rem;
+      margin-right: 0.2rem; }
+  .box1 .dis p:last-of-type {
+    font-size: 0.22rem;
+    color: #fff;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    vertical-align: middle; }
 .box1 .fun {
-  background: #fff;
-}
-.box1 .fun div {
-  width: 1.93rem;
-  height: 2.7rem;
-  text-align: center;
-  float: left;
-  background: #fff;
-}
-.box1 .fun div img {
-  width: 1.5rem;
-  height: 1.5rem;
-  margin-top: 0.48rem;
-}
-.box1 .fun div span {
-  line-height: 0.7rem;
-  font-size: 0.24rem;
-  color: #666;
-}
-.box1 .fun div + div {
-  margin-left: 0.3rem;
-}
+  background: #fff; }
+  .box1 .fun div {
+    width: 1.93rem;
+    height: 2.7rem;
+    text-align: center;
+    float: left;
+    background: #fff; }
+    .box1 .fun div img {
+      width: 1.5rem;
+      height: 1.5rem;
+      margin-top: 0.48rem; }
+    .box1 .fun div span {
+      line-height: 0.7rem;
+      font-size: 0.24rem;
+      color: #666; }
+  .box1 .fun div + div {
+    margin-left: 0.3rem; }
 
 .box2 {
   width: 100%;
-  height: 0.8rem;
-}
-.box2 .sign {
-  width: 100%;
-  height: 0.8rem;
-  font-size: 0.24rem;
-  line-height: 0.8rem;
-  color: #666;
-  text-align: center;
-}
-.box2 .order {
-  padding: 0.2rem 0.2rem 0 0.2rem;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  background: #fff;
-}
-.box2 .order .border1 {
-  padding-bottom: 0.2rem;
-}
-.box2 .order .order-good {
-  margin-bottom: 0.2rem;
-}
-.box2 .order .goodInfo {
-  background: #fff;
-  margin-top: 0.2rem;
-}
-.box2 .order .goodInfo .left {
-  width: 1.5rem;
-  float: left;
-  margin-right: 0.2rem;
-}
-.box2 .order .goodInfo .left img {
-  width: 1.5rem;
-  height: 1.5rem;
-}
-.box2 .order .goodInfo .right {
-  width: 4.3rem;
-  height: 1.5rem;
-  position: relative;
-  float: left;
-}
-.box2 .order .goodInfo .right div {
-  width: 100%;
-}
-.box2 .order .goodInfo .right div span {
-  float: left;
-  width: 50%;
-}
-.box2 .order .goodInfo .right div .two {
-  text-align: right;
-}
-.box2 .order .goodInfo .right div + div {
-  margin-top: 0.03rem;
-}
-.box2 .order .goodInfo .right .second {
-  margin-top: 0.1rem;
-}
-.box2 .order .goodInfo .right .second span {
-  float: right;
-  display: inline-block;
-  *display: inline;
-  *zoom: 1;
-  width: 1.2rem;
-  height: 0.5rem;
-  border: 1px solid #FE8B00;
-  border-radius: 0.08rem;
-  -webkit-border-radius: 0.08rem;
-  -moz-border-radius: 0.08rem;
-  line-height: 0.5rem;
-  text-align: center;
-  color: #FE8B00;
-  background: #fff;
-  font-size: 0.26rem;
-}
-.box2 .order .goodInfo .right .good-name {
-  width: 2.9rem;
-  line-height: 0.4rem;
-  font-size: 0.24rem;
-  color: #333;
-}
-.box2 .order .buyInfo {
-  width: 100%;
-  height: 0.65rem;
-  border-bottom: 1px dashed #E5E5E5;
-}
-.box2 .order .buyInfo p {
-  text-align: right;
-  height: 0.65rem;
-  line-height: 0.65rem;
-}
-.box2 .order .buyInfo p b {
-  color: #FF8B00;
-}
-.box2 .order .buyInfo p span {
-  margin-left: 0.2rem;
-}
-.box2 .order .buyInfo p span:first-of-type {
-  color: #999;
-}
-.box2 .order .buyInfo p span:last-of-type,
-.box2 .order .buyInfo p i {
-  color: #333;
-}
+  height: 0.8rem; }
+  .box2 .sign {
+    width: 100%;
+    height: 0.8rem;
+    font-size: 0.24rem;
+    line-height: 0.8rem;
+    color: #666;
+    text-align: center; }
+  .box2 .order {
+    padding: 0.2rem 0.2rem 0 0.2rem;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background: #fff; }
+    .box2 .order .border1 {
+      padding-bottom: 0.2rem; }
+    .box2 .order .order-good {
+      margin-bottom: 0.2rem; }
+    .box2 .order .goodInfo {
+      background: #fff;
+      margin-top: 0.2rem; }
+      .box2 .order .goodInfo .left {
+        width: 1.5rem;
+        float: left;
+        margin-right: 0.2rem; }
+        .box2 .order .goodInfo .left img {
+          width: 1.5rem;
+          height: 1.5rem; }
+      .box2 .order .goodInfo .right {
+        width: 4.3rem;
+        height: 1.5rem;
+        position: relative;
+        float: left; }
+        .box2 .order .goodInfo .right div {
+          width: 100%; }
+          .box2 .order .goodInfo .right div span {
+            float: left;
+            width: 50%; }
+          .box2 .order .goodInfo .right div .two {
+            text-align: right; }
+        .box2 .order .goodInfo .right div + div {
+          margin-top: 0.03rem; }
+        .box2 .order .goodInfo .right .second {
+          margin-top: 0.1rem; }
+          .box2 .order .goodInfo .right .second span {
+            float: right;
+            display: inline-block;
+            *display: inline;
+            *zoom: 1;
+            width: 1.2rem;
+            height: 0.5rem;
+            border: 1px solid #FE8B00;
+            border-radius: 0.08rem;
+            -webkit-border-radius: 0.08rem;
+            -moz-border-radius: 0.08rem;
+            line-height: 0.5rem;
+            text-align: center;
+            color: #FE8B00;
+            background: #fff;
+            font-size: 0.26rem; }
+        .box2 .order .goodInfo .right .good-name {
+          width: 2.9rem;
+          line-height: 0.4rem;
+          font-size: 0.24rem;
+          color: #333; }
+    .box2 .order .buyInfo {
+      width: 100%;
+      height: 0.65rem;
+      border-bottom: 1px dashed #E5E5E5; }
+      .box2 .order .buyInfo p {
+        text-align: right;
+        height: 0.65rem;
+        line-height: 0.65rem; }
+        .box2 .order .buyInfo p b {
+          color: #FF8B00; }
+        .box2 .order .buyInfo p span {
+          margin-left: 0.2rem; }
+        .box2 .order .buyInfo p span:first-of-type {
+          color: #999; }
+        .box2 .order .buyInfo p span:last-of-type,
+        .box2 .order .buyInfo p i {
+          color: #333; }
 
 /*# sourceMappingURL=evaluateSuccess.css.map */
