@@ -5,7 +5,6 @@
   font-size: 14px;
   border-bottom: 1px solid #e5e5e5;
 }
-
 .ctr span {
   width: 50%;
   display: inline-block;
@@ -17,11 +16,9 @@
   vertical-align: middle;
   text-align: center;
 }
-
 .ctr .border1:after {
   background: #FF8B00;
 }
-
 .ctr .active {
   color: #FE8B00;
 }
@@ -34,29 +31,24 @@
   font-size: 14px;
   background: #fff;
 }
-
 .listBox .list {
   height: 1rem;
 }
-
 .listBox .list div {
   width: 50%;
   float: left;
 }
-
 .listBox .list div:first-child p {
   font-size: 0.26rem;
   color: #333;
   margin-top: 0.2rem;
 }
-
 .listBox .list div:first-child span {
   height: 0.5rem;
   line-height: 0.5rem;
   font-size: 0.2rem;
   color: #666;
 }
-
 .listBox .list div:last-child p {
   height: 1rem;
   line-height: 1rem;
@@ -73,5 +65,3 @@
   font-size: 0.2rem;
   color: #666;
 }
-
-/*# sourceMappingURL=bill.css.map */
