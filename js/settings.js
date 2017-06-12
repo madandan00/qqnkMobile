@@ -6,8 +6,8 @@ $(".exit").on("click",function(){
 //确定退出
 $(".SureExit").on("click",function(){
 	//清除cookie
-	
-	
+	$.cookie("", null); 
+	$.cookie("",null);
 	$(".mark").hide();
 	$(".hint").hide();
 })

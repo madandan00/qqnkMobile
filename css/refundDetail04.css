@@ -3,50 +3,39 @@
   font-size: 0.36rem;
   color: #999;
   float: right;
-  line-height: 0.88rem;
-}
+  line-height: 0.88rem; }
 
 .box1 {
   background: #fff;
-  margin-bottom: 0.2rem;
-}
-.box1 .top {
-  height: 1rem;
-  text-align: center;
-}
-.box1 .top i, .box1 .top span {
-  line-height: 1rem;
-}
-.box1 .top i {
-  font-size: 0.38rem;
-  color: #FE8B00;
-  margin-right: 0.2rem;
-}
-.box1 .top span {
-  font-size: 0.36rem;
-  color: #333;
-}
-.box1 .bot {
-  padding: 0.1rem 0.2rem;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-}
-.box1 .bot div {
-  height: 0.43rem;
-}
-.box1 .bot span, .box1 .bot i {
-  line-height: 0.43rem;
-}
-.box1 .bot span {
-  font-size: 0.26rem;
-  color: #999;
-  margin-right: 0.2rem;
-}
-.box1 .bot i {
-  font-size: 0.26rem;
-  color: #333;
-}
+  margin-bottom: 0.2rem; }
+  .box1 .top {
+    height: 1rem;
+    text-align: center; }
+    .box1 .top i, .box1 .top span {
+      line-height: 1rem; }
+    .box1 .top i {
+      font-size: 0.38rem;
+      color: #FE8B00;
+      margin-right: 0.2rem; }
+    .box1 .top span {
+      font-size: 0.36rem;
+      color: #333; }
+  .box1 .bot {
+    padding: 0.1rem 0.2rem;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; }
+    .box1 .bot div {
+      height: 0.43rem; }
+    .box1 .bot span, .box1 .bot i {
+      line-height: 0.43rem; }
+    .box1 .bot span {
+      font-size: 0.26rem;
+      color: #999;
+      margin-right: 0.2rem; }
+    .box1 .bot i {
+      font-size: 0.26rem;
+      color: #333; }
 
 .box2 {
   padding: 0 0.2rem;
@@ -56,53 +45,42 @@
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  margin-bottom: 0.2rem;
-}
-.box2 span, .box2 i {
-  line-height: 0.8rem;
-}
-.box2 span {
-  font-size: 0.26rem;
-  color: #333;
-}
-.box2 i {
-  font-size: 0.3rem;
-  color: #666;
-  float: right;
-}
+  margin-bottom: 0.2rem; }
+  .box2 span, .box2 i {
+    line-height: 0.8rem; }
+  .box2 span {
+    font-size: 0.26rem;
+    color: #333; }
+  .box2 i {
+    font-size: 0.3rem;
+    color: #666;
+    float: right; }
 
 .box3 {
   padding: 0 0.2rem;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  background: #fff;
-}
-.box3 div:first-of-type {
-  height: 0.8rem;
-}
-.box3 div:first-of-type span {
-  line-height: 0.8rem;
-  font-size: 0.26rem;
-  color: #333;
-}
-.box3 div:last-of-type {
-  padding: 0.1rem 0;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-}
-.box3 div:last-of-type span, .box3 div:last-of-type i {
-  line-height: 0.4rem;
-}
-.box3 div:last-of-type span {
-  font-size: 0.24rem;
-  color: #999;
-  margin-right: 0.2rem;
-}
-.box3 div:last-of-type i {
-  font-size: 0.24rem;
-  color: #333;
-}
+  background: #fff; }
+  .box3 div:first-of-type {
+    height: 0.8rem; }
+    .box3 div:first-of-type span {
+      line-height: 0.8rem;
+      font-size: 0.26rem;
+      color: #333; }
+  .box3 div:last-of-type {
+    padding: 0.1rem 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; }
+    .box3 div:last-of-type span, .box3 div:last-of-type i {
+      line-height: 0.4rem; }
+    .box3 div:last-of-type span {
+      font-size: 0.24rem;
+      color: #999;
+      margin-right: 0.2rem; }
+    .box3 div:last-of-type i {
+      font-size: 0.24rem;
+      color: #333; }
 
 /*# sourceMappingURL=refundDetail04.css.map */

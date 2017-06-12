@@ -3,8 +3,7 @@
   font-size: 0.3rem;
   color: #999;
   float: right;
-  line-height: 0.88rem;
-}
+  line-height: 0.88rem; }
 
 .stateBox {
   width: 100%;
@@ -14,50 +13,41 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   background: #fff;
-  margin-top: 0.2rem;
-}
-.stateBox .state {
-  height: 100%;
-}
-.stateBox p:first-of-type {
-  line-height: 0.48rem;
-  vertical-align: middle;
-  font-size: 0.3rem;
-  color: #333;
-}
-.stateBox p:last-of-type {
-  line-height: 0.37rem;
-  vertical-align: middle;
-  font-size: 0.22rem;
-  color: #999;
-}
+  margin-top: 0.2rem; }
+  .stateBox .state {
+    height: 100%; }
+  .stateBox p:first-of-type {
+    line-height: 0.48rem;
+    vertical-align: middle;
+    font-size: 0.3rem;
+    color: #333; }
+  .stateBox p:last-of-type {
+    line-height: 0.37rem;
+    vertical-align: middle;
+    font-size: 0.22rem;
+    color: #999; }
 
 .box {
   padding: 0 0.2rem;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  background: #fff;
-}
-.box div:first-of-type {
-  padding: 0.2rem 0 0.1rem 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  background: #fff;
-}
-.box div:first-of-type p {
-  line-height: 0.4rem;
-  font-size: 0.24rem;
-  color: #666;
-}
-.box div:last-of-type {
-  height: 0.7rem;
-}
-.box div:last-of-type span {
-  line-height: 0.7rem;
-  float: right;
-  font-size: 0.3rem;
-  color: #b3d929;
-}
+  background: #fff; }
+  .box div:first-of-type {
+    padding: 0.2rem 0 0.1rem 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background: #fff; }
+    .box div:first-of-type p {
+      line-height: 0.4rem;
+      font-size: 0.24rem;
+      color: #666; }
+  .box div:last-of-type {
+    height: 0.7rem; }
+    .box div:last-of-type span {
+      line-height: 0.7rem;
+      float: right;
+      font-size: 0.3rem;
+      color: #b3d929; }
 
 /*# sourceMappingURL=refundDetail03.css.map */

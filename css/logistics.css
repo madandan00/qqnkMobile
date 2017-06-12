@@ -6,35 +6,30 @@
   padding: 0.2rem 0.3rem;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-}
-.logistics div {
-  width: 100%;
-  position: relative;
-}
-.logistics input {
-  width: 100%;
-  height: 0.77rem;
-  border-radius: 0.1rem;
-  border: 1px solid #666;
-  padding-left: 0.2rem;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  font-size: 0.26rem;
-  color: #666;
-}
-.logistics div + div {
-  margin-top: 0.2rem;
-}
-.logistics i {
-  position: absolute;
-  right: 0.1rem;
-  top: 0;
-  line-height: 0.77rem;
-  font-size: 0.3rem;
-  color: #666;
-}
+  -moz-box-sizing: border-box; }
+  .logistics div {
+    width: 100%;
+    position: relative; }
+  .logistics input {
+    width: 100%;
+    height: 0.77rem;
+    border-radius: 0.1rem;
+    border: 1px solid #666;
+    padding-left: 0.2rem;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-size: 0.26rem;
+    color: #666; }
+  .logistics div + div {
+    margin-top: 0.2rem; }
+  .logistics i {
+    position: absolute;
+    right: 0.1rem;
+    top: 0;
+    line-height: 0.77rem;
+    font-size: 0.3rem;
+    color: #666; }
 
 .express {
   position: fixed;
@@ -43,54 +38,44 @@
   width: 100%;
   background: #fff;
   font-size: 14px;
-  display: none;
-}
-.express .top {
-  text-align: center;
-  height: 0.7rem;
-  position: relative;
-}
-.express .top span {
-  font-size: 0.3rem;
-  color: #333;
-  line-height: 0.7rem;
-}
-.express .top i {
-  position: absolute;
-  font-size: 0.4rem;
-  color: #ccc;
-  left: 0.2rem;
-  line-height: 0.7rem;
-}
+  display: none; }
+  .express .top {
+    text-align: center;
+    height: 0.7rem;
+    position: relative; }
+    .express .top span {
+      font-size: 0.3rem;
+      color: #333;
+      line-height: 0.7rem; }
+    .express .top i {
+      position: absolute;
+      font-size: 0.4rem;
+      color: #ccc;
+      left: 0.2rem;
+      line-height: 0.7rem; }
 
 .componey {
   width: 100%;
   padding: 0.1rem 0.2rem;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-}
-.componey ul li {
-  height: 0.68rem;
-}
-.componey ul li span {
-  line-height: 0.68rem;
-  font-size: 0.3rem;
-  color: #666;
-  vertical-align: middle;
-}
-.componey ul li i {
-  line-height: 0.68rem;
-  font-size: 0.3rem;
-  vertical-align: -0.03rem;
-  float: right;
-}
-.componey ul li .icon-duihao {
-  color: #FE8B00;
-}
-.componey ul li .icon-yuanquan {
-  color: #666;
-}
+  -moz-box-sizing: border-box; }
+  .componey ul li {
+    height: 0.68rem; }
+    .componey ul li span {
+      line-height: 0.68rem;
+      font-size: 0.3rem;
+      color: #666;
+      vertical-align: middle; }
+    .componey ul li i {
+      line-height: 0.68rem;
+      font-size: 0.3rem;
+      vertical-align: -0.03rem;
+      float: right; }
+    .componey ul li .icon-duihao {
+      color: #FE8B00; }
+    .componey ul li .icon-yuanquan {
+      color: #666; }
 
 .tj {
   width: 5.8rem;
@@ -104,7 +89,6 @@
   margin: 0.4rem auto 0.3rem;
   border-radius: 0.1rem;
   -moz-border-radius: 0.1rem;
-  -webkit-border-radius: 0.1rem;
-}
+  -webkit-border-radius: 0.1rem; }
 
 /*# sourceMappingURL=logistics.css.map */

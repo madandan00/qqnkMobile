@@ -44,12 +44,16 @@
     -webkit-border-radius: 100%;
     margin-top: 0.4rem; }
   .top .headPic i {
-    color: #f6f6f6;
+    color: #fe8c00;
     font-size: 0.32rem;
     position: absolute;
     top: 1rem;
     left: 4.3rem; }
   .top .name {
+    margin-top: 0.2rem;
+    font-size: 0.28rem;
+    color: #333; }
+  .top .wei {
     margin-top: 0.2rem;
     font-size: 0.28rem;
     color: #333; }

@@ -18,6 +18,15 @@
 
 			});
 		</script>
+		<script src="js/jquery-2.2.3.min.js"></script>
+   		<script src="js/mobiscroll_002.js" type="text/javascript"></script>
+		<script src="js/mobiscroll_004.js" type="text/javascript"></script>
+		<link href="css/mobiscroll_002.css" rel="stylesheet" type="text/css">
+		<link href="css/mobiscroll.css" rel="stylesheet" type="text/css">
+		<script src="js/mobiscroll.js" type="text/javascript"></script>
+		<script src="js/mobiscroll_003.js" type="text/javascript"></script>
+		<script src="js/mobiscroll_005.js" type="text/javascript"></script>
+		<link href="css/mobiscroll_003.css" rel="stylesheet" type="text/css">
 
 	</head>
 
@@ -47,7 +56,7 @@
 					<div class="listBox">
 						<div class="list" style="border-bottom: 1px solid #e5e5e5;">
 							<span>账号</span>
-							<b class="iconfont icon-iconfontjiantouyou"></b>
+							
 							<i>Weixin-12</i>
 						</div>
 					</div>
@@ -57,7 +66,7 @@
 					<div class="listBox">
 						<div class="list" style="border-bottom: 1px solid #e5e5e5;">
 							<span>手机号</span>
-							<b class="iconfont icon-iconfontjiantouyou"></b>
+							
 							<i>12345678912</i>
 						</div>
 					</div>
@@ -103,6 +112,7 @@
 				<!--生日-->
 
 				<div class="listBox birthday">
+					<input class="calendar2" readonly="readonly" name="appDate" id="appDate" type="text"/>
 					<div class="list" >
 						<span>生日</span>
 						<b class="iconfont icon-iconfontjiantouyou"></b>
@@ -111,8 +121,7 @@
 				</div>
 				<div id="calendar">
 					<div class="calendars">
-						<input type="text" class="calendar1" placeholder="请选择生日" value="2012.13" />
-						<input type="date" class="calendar2" />
+						<input type="text" class="calendar1" placeholder="请选择生日" value="2012.13" readonly="readonly"/>	
 					</div>
 					<p class="second"><span class="sure">确定</span> <span class="cancel">取消</span></p>
 				</div>
@@ -130,8 +139,35 @@
 
 	</body>
 	<script type="text/javascript" src="js/zepto.min.js"></script>
+	<script type="text/javascript" src="js/laydate.js" ></script>
 	<script type="text/javascript" src="js/back.js"></script>
 	<script type="text/javascript" src="js/myInfo.js"></script>
 	<script type="text/javascript" src="js/changeSex.js"></script>
+	<script type="text/javascript">
+        $(function () {
+			var currYear = (new Date()).getFullYear();	
+			var opt={};
+			opt.date = {preset : 'date'};
+			opt.datetime = {preset : 'datetime'};
+			opt.time = {preset : 'time'};
+			opt.default = {
+				theme: 'android-ics light', //皮肤样式
+		        display: 'modal', //显示方式 
+		        mode: 'scroller', //日期选择模式
+				dateFormat: 'yyyy-mm-dd',
+				lang: 'zh',
+				showNow: true,
+				nowText: "今天",
+		        startYear: currYear - 10, //开始年份
+		        endYear: currYear + 10 //结束年份
+			};
+
+		  	$("#appDate").mobiscroll($.extend(opt['date'], opt['default']));
+		  	var optDateTime = $.extend(opt['datetime'], opt['default']);
+		  	var optTime = $.extend(opt['time'], opt['default']);
+		    $("#appDateTime").mobiscroll(optDateTime).datetime(optDateTime);
+		    $("#appTime").mobiscroll(optTime).time(optTime);
+        });
+    </script>
 
 </html>

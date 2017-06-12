@@ -6,8 +6,7 @@
   top: 0;
   left: 0;
   z-index: 3;
-  display: none;
-}
+  display: none; }
 
 .sucess {
   position: fixed;
@@ -21,51 +20,40 @@
   border-radius: 0.1rem;
   -moz-border-radius: 0.1rem;
   -webkit-border-radius: 0.1rem;
-  display: none;
-}
-.sucess .one {
-  margin-top: 0.48rem;
-}
-.sucess .two {
-  margin-top: 0.2rem;
-}
-.sucess .three {
-  margin-top: 0.4rem;
-  border-top: 1px solid #e5e5e5;
-}
-.sucess p {
-  text-align: center;
-}
-.sucess p i {
-  color: #04bd02;
-  font-size: 0.5rem;
-}
-.sucess p span {
-  font-size: 0.24rem;
-  color: #000;
-}
-.sucess p strong {
-  font-size: 0.3rem;
-  color: #ff8b00;
-  font-weight: normal;
-  line-height: 0.9rem;
-}
+  display: none; }
+  .sucess .one {
+    margin-top: 0.48rem; }
+  .sucess .two {
+    margin-top: 0.2rem; }
+  .sucess .three {
+    margin-top: 0.4rem;
+    border-top: 1px solid #e5e5e5; }
+  .sucess p {
+    text-align: center; }
+    .sucess p i {
+      color: #04bd02;
+      font-size: 0.5rem; }
+    .sucess p span {
+      font-size: 0.24rem;
+      color: #000; }
+    .sucess p strong {
+      font-size: 0.3rem;
+      color: #ff8b00;
+      font-weight: normal;
+      line-height: 0.9rem; }
 
 .ts {
   height: 0.2rem;
-  width: 100%;
-}
+  width: 100%; }
 
 .tip {
   font-size: 0.16rem;
   color: #FF8B00;
   margin-top: 0.2rem;
   text-align: left;
-  margin-left: 0.2rem;
-}
+  margin-left: 0.2rem; }
 
 .tj {
-  margin-top: 0.1rem;
-}
+  margin-top: 0.1rem; }
 
 /*# sourceMappingURL=logPsw.css.map */

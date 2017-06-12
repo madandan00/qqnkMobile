@@ -10,30 +10,25 @@
   background: #fff;
   border-radius: 0.1rem;
   -moz-border-radius: 0.1rem;
-  -webkit-border-radius: 0.1rem;
-}
-.hint .tip {
-  height: 1.48rem;
-  line-height: 1.48rem;
-  font-size: 0.3rem;
-  color: #000;
-  text-align: center;
-}
-.hint .second {
-  height: 0.9rem;
-  line-height: 0.9rem;
-}
-.hint .second span {
-  display: inline-block;
-  height: 0.9rem;
-  line-height: 0.9rem;
-  width: 2.3rem;
-  text-align: center;
-  font-size: 0.3rem;
-  color: #FF8B00;
-}
-.hint .second .SureExit {
-  border-left: 1px solid #e5e5e5;
-}
+  -webkit-border-radius: 0.1rem; }
+  .hint .tip {
+    height: 1.48rem;
+    line-height: 1.48rem;
+    font-size: 0.3rem;
+    color: #000;
+    text-align: center; }
+  .hint .second {
+    height: 0.9rem;
+    line-height: 0.9rem; }
+    .hint .second span {
+      display: inline-block;
+      height: 0.9rem;
+      line-height: 0.9rem;
+      width: 2.3rem;
+      text-align: center;
+      font-size: 0.3rem;
+      color: #FF8B00; }
+    .hint .second .SureExit {
+      border-left: 1px solid #e5e5e5; }
 
 /*# sourceMappingURL=hint.css.map */

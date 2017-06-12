@@ -1,0 +1,18 @@
+.tt {
+  width: 2rem;
+  height: 1rem;
+  background: url(../img/bg.png) no-repeat 0 0;
+  font-size: 0.28rem;
+  color: #fff;
+  text-align: center;
+  line-height: 1rem;
+  border-radius: 0.1rem;
+  -webkit-border-radius: 0.1rem;
+  -moz-border-radius: 0.1rem;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -0.5rem;
+  margin-left: -1rem; }
+
+/*# sourceMappingURL=tt.css.map */
