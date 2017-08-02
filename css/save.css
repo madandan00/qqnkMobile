@@ -30,13 +30,15 @@
   .much label {
     font-size: 0.26rem;
     color: #333;
+    display: inline-block;
+    height: 0.8rem;
     line-height: 0.8rem;
+    vertical-align: -0.05rem;
     margin-left: 0.2rem; }
   .much .in {
     font-size: 0.26rem;
     border: none;
     height: 0.8rem;
-    line-height: 0.8rem;
     margin-left: 0.2rem;
     width: 4rem;
     vertical-align: middle; }

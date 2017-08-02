@@ -26,7 +26,8 @@ $(".edit").on("click",function(){
 	var name=$(this).parents(".listBox").find(".name").html();
 	var address1=$(this).parents(".listBox").find(".addres1").html();
 	var address2=$(this).parents(".listBox").find(".addres2").html();
-	var phone=$(this).parents(".listBox").find(".phone").html();
+	var phone=$(this).parents(".listBox").find(".phone").text();
+	alert(phone);
 	$("#name").val(name);
 	$("#area").val(address1);
 	$("#detail").val(address2);

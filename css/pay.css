@@ -1,0 +1,161 @@
+header {
+  width: 100%;
+  height: .88rem;
+  font-size: .36rem;
+  color: #333;
+  background: #fff;
+  border-bottom: 0.02rem solid #E5E5E5; }
+  header .title {
+    text-align: center;
+    line-height: .88rem;
+    font-size: .36rem;
+    color: #333;
+    position: relative; }
+    header .title .back {
+      font-size: .26rem;
+      position: absolute;
+      left: .2rem;
+      top: 0; }
+      header .title .back i {
+        font-size: .26rem; }
+
+#payprice {
+  width: 100%;
+  height: 1.15rem;
+  background: #fff;
+  text-align: center;
+  line-height: 1.15rem;
+  font-size: .28rem; }
+  #payprice span {
+    color: #FF8B00;
+    font-size: .22rem; }
+    #payprice span .price {
+      font-size: .28rem; }
+
+#select {
+  width: 100%;
+  height: 3.15rem;
+  background: #fff;
+  margin-top: .2rem; }
+  #select .sele_tit {
+    height: .65rem;
+    line-height: .65rem;
+    padding: 0 .2rem;
+    font-size: .28rem;
+    border-bottom: 1px solid #ccc; }
+  #select #select_cont .cont {
+    margin: 0 .2rem;
+    height: .8rem;
+    overflow: hidden;
+    line-height: .8rem;
+    border-bottom: 0.02rem solid #ccc; }
+    #select #select_cont .cont p {
+      font-size: .28rem; }
+    #select #select_cont .cont .p_l {
+      float: left; }
+    #select #select_cont .cont .p_r {
+      float: right; }
+      #select #select_cont .cont .p_r i {
+        font-size: .36rem; }
+      #select #select_cont .cont .p_r .icon-duihao {
+        color: #FF8B00; }
+  #select #select_cont .cont1 .icon-zhifubaozhifu {
+    color: #2a83c7;
+    font-size: .36rem;
+    margin-right: .2rem; }
+  #select #select_cont .cont2 .icon-weixinzhifu {
+    color: #27ac38;
+    font-size: .36rem;
+    margin-right: .2rem; }
+  #select #select_cont .cont3 {
+    border-bottom: none; }
+  #select #select_cont .cont3 .icon-yuezhifu {
+    color: #FF8B00;
+    font-size: .36rem;
+    margin-right: .2rem; }
+
+#zhpay {
+  width: 6.4rem;
+  height: 150%;
+  background: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 0;
+  display: none; }
+  #zhpay .payhint {
+    width: 4.8rem;
+    height: 3rem;
+    border-radius: 10px;
+    background: #fff;
+    margin: 0 auto;
+    margin-top: 2.5rem; }
+    #zhpay .payhint .pay_tit {
+      height: .8rem;
+      font-size: .24rem;
+      text-align: center;
+      line-height: .8rem;
+      border-bottom: 0.02rem solid #ccc;
+      position: relative; }
+      #zhpay .payhint .pay_tit i {
+        font-size: .64rem;
+        color: #333;
+        position: absolute;
+        top: 0;
+        right: 0; }
+    #zhpay .payhint .pay_sum {
+      font-size: .24rem;
+      height: 1.12rem;
+      text-align: center; }
+      #zhpay .payhint .pay_sum p {
+        font-size: .22rem; }
+        #zhpay .payhint .pay_sum p span {
+          font-size: .3rem; }
+      #zhpay .payhint .pay_sum .tit {
+        padding-top: .3rem; }
+      #zhpay .payhint .pay_sum .sum {
+        margin-top: .18rem;
+        color: #FF8B00; }
+    #zhpay .payhint .pwd-box {
+      width: 4.3rem;
+      margin: 0 auto;
+      position: relative;
+      border: 1px solid #9f9fa0;
+      border-radius: 3px;
+      over-flow: hidden;
+      font-size: .24rem; }
+    #zhpay .payhint .pwd-box input[type="tel"] {
+      width: 99%;
+      height: .75rem;
+      color: transparent;
+      position: absolute;
+      top: 0;
+      left: 0;
+      border: none;
+      font-size: .18rem;
+      opacity: 0;
+      z-index: 1;
+      letter-spacing: .35rem; }
+    #zhpay .payhint .fake-box {
+      width: 4.3rem; }
+    #zhpay .payhint .fake-box input {
+      width: .65rem;
+      height: .7rem;
+      border: none;
+      border-right: 1px solid #e5e5e5;
+      text-align: center;
+      font-size: .3rem; }
+    #zhpay .payhint .fake-box input:nth-last-child(1) {
+      border: none; }
+
+#payment {
+  width: 5.8rem;
+  height: .8rem;
+  border-radius: .1rem;
+  background: #FF8B00;
+  color: #fff;
+  text-align: center;
+  line-height: .8rem;
+  font-size: .3rem;
+  margin: 0 auto;
+  margin-top: 4.48rem; }
+
+/*# sourceMappingURL=pay.css.map */

@@ -5,7 +5,7 @@ $(function(){
 		
 	}
 })
-$(".topPic").css("background-image","url("+$("#tx").attr("src")+")")
+
 //在线客服模块显示
 $(".linkCus").on("click",function(){
 	//alert(1)

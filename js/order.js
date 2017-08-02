@@ -2,6 +2,7 @@ $(function(){
 	
 })
 $(".btn").on("click",function(){
+	alert(1)
 	$(".btn").removeClass("btnActive");
 	$(this).addClass("btnActive");
 	//mySwiper.slideTo($(this).attr("data-slide"))

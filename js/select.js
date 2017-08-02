@@ -95,4 +95,8 @@ $(".cart").on("click", function() {
 		
 	}
 console.log($.fn.cookie("goodsList"))
+$(".tt").html("加入购物车").show(500);
+setTimeout(function(){
+	$(".tt").hide();
+},1000)
 })

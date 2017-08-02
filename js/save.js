@@ -10,9 +10,10 @@ $(".next").on("click",function(){
 	//localStorage.setItem("save",val)
 })
 //输入金额控制
-$("#money").bind("keyup",function(){
+$("#money").bind("keydown",function(){
 	var val=$("#money").val();
-	if(!/^\d+$/.test(val)){
+	if(!/^([1-9]\d{0,5}|0)([.]?|(\.\d{0,1})?)$/.test(val)){
+		console.log(val)
 		$(this).val(val.slice(0,val.length-1));
 	}
 	

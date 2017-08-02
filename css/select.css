@@ -31,12 +31,12 @@
     line-height: 0.36rem; }
 
 .Box {
-  width: 7.1rem; }
+  width: 100%;
+  overflow: hidden; }
 
 .box {
   background: #fff;
-  width: 100%;
-  overflow: hidden; }
+  width: 7.1rem; }
   .box .left {
     width: 0.7rem;
     float: left;

@@ -29,6 +29,7 @@
 .kong {
   width: 100%;
   height: 100%;
+  background: #fff;
   text-align: center;
 }
 .kong img {
@@ -50,7 +51,6 @@
   width: 100%;
   font-size: 14px;
   height: 100%;
-  background: #fff;
   margin-top: 0.2rem;
 }
 
@@ -63,16 +63,14 @@
 }
 .order .order-top {
   height: 0.66rem;
+  margin-top: 0.2rem;
 }
 .order .order-top div {
   height: 0.66rem;
   float: left;
 }
 .order .order-top div:first-of-type {
-  width: 80%;
-}
-.order .order-top div:last-of-type {
-  width: 20%;
+  width: 100%;
 }
 .order .order-top span,
 .order .order-top p {

@@ -1,3 +1,6 @@
+$(".eliminate").on("click", function() {
+	$(this).parent().find("input").val('');
+})
 //支付密码判断
 function checkPay(id) {
 	var userPwd = $("#" + id).val() || $("#" + id).html();

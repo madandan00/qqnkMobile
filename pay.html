@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>支付</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/pay.css"/>
+		<link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_qxe6t1tf789i19k9.css"/>
+		<script src="js/public.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--头部-->
+		<header>	
+			<div class="title">
+				<div class="back">
+					<i class="ico iconfont icon-zuojiantou"></i>
+				</div>
+				支付		
+			</div>
+		</header>
+		<!--支付价格-->
+		<div id="payprice">
+			等待支付：<span>￥<span class="price">{$sum}</span></span>
+			<input type="hidden" class="ordernum" value="{$order_pay}">
+		</div>
+		<!--选择-->
+		<div id="select">
+			<div class="sele_tit">
+				选择支付方式
+			</div>
+			<div id="select_cont">
+				<div class="cont cont1">
+					<p class="p_l"><i class="ico iconfont icon-zhifubaozhifu"></i>支付宝支付</p><p class="p_r"><i class="ico iconfont icon-duihao"></i></p>
+					<input type="hidden" class="alipay" value="1">
+				</div>
+				<div class="cont cont2">
+					<p class="p_l"><i class="ico iconfont icon-weixinzhifu"></i>微信支付</p><p class="p_r"><i class="ico iconfont icon-yuanquan"></i></p>
+					<input type="hidden" class="wei" value="2">
+				</div>
+				<div class="cont cont3">
+					<p class="p_l"><i class="ico iconfont icon-yuezhifu"></i>账户余额</p><p class="p_r"><i class="ico iconfont icon-yuanquan"></i></p>
+				</div>
+			</div>
+		</div>
+		<!--账户余额支付弹窗-->
+		<div id="zhpay">
+			<div class="payhint">
+				<div class="pay_tit">
+					请输入付款密码
+					<i class="ico iconfont icon-x"></i>
+				</div>
+				<div class="pay_sum">
+					<p class="tit">消费金额</p>
+					<p class="sum">￥<span>{$sum}</span></p>
+					<input type="hidden" class="ordernum" value="{$order_pay}">
+				</div>
+				<div class="pwd-box">
+					<input type="tel" maxlength="6" class="pwd-input" id="pwd-input">  
+				    <div class="fake-box">  
+				        <input type="password" readonly="">  
+				        <input type="password" readonly="">  
+				        <input type="password" readonly="">  
+				        <input type="password" readonly="">  
+				        <input type="password" readonly="">  
+				        <input type="password" readonly="">  
+				    </div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="payment">
+			立即支付
+		</div>
+	</body>
+</html>
+<script src="__HOME__/js/jquery-2.2.3.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	//选择支付方式
+	$("#select #select_cont .cont").on("click",function(){
+		if($(this).find(".p_r i").hasClass("icon-yuanquan")){
+			$(this).find(".p_r i").addClass("icon-duihao").removeClass("icon-yuanquan")
+			$(this).siblings().find(".p_r i").removeClass("icon-duihao").addClass("icon-yuanquan")
+			
+		}
+	})
+	//立即支付按钮
+	$("#payment").on("click",function(){
+		//判断是账户余额支付弹出
+		if($(".cont3 .p_r i").hasClass("icon-duihao")){
+			$("#zhpay").show()
+		}
+		if($(".cont1 .p_r i").hasClass("icon-duihao")){
+			var alipay=$(".alipay").val()
+			var order=$(".ordernum").val()
+			var price=$(".price").html()
+			var jsPost = function(action, values) {
+				  var id = Math.random();
+				document.write('<form id="post' + id + '" name="post'+ id +'" action="' + action + '" method="post">');
+				  for (var key in values) {
+				    document.write('<input type="hidden" name="' + key + '" value="' + values[key] + '" />');
+				  }
+				  document.write('</form>');  
+				  document.getElementById('post' + id).submit();
+				}
+				jsPost("{:U('pay1')}", {
+				  'alipay':alipay,
+				  'order':order,
+				  'price':price,
+				});
+		}
+	})
+	//关闭付款密码弹框
+	$("#zhpay .payhint .pay_tit i").on("click",function(){
+		$("#zhpay").hide()
+	})
+	$(".back").on("click",function(){
+		window.location.href="__CONTROLLER__/cart"
+	})
+</script>
+
+<script>  
+var $input = $(".fake-box input");  
+            $("#pwd-input").on("input", function() {  
+                var pwd = $(this).val().trim(); 
+               
+                for (var i = 0, len = pwd.length; i < len; i++) {  
+                    $input.eq("" + i + "").val(pwd[i]);  
+                }  
+                $input.each(function() {  
+                    var index = $(this).index();  
+                    if (index >= len) {  
+                        $(this).val("");  
+                       
+                    }  
+                });  
+                if (len == 6) {  
+                    //执行其他操作  $("#pwd-input").val()是输入的密码
+                    console.log($("#pwd-input").val())
+                }  
+            });  
+</script>  
+</body>  
+</html> 

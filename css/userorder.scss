@@ -1,7 +1,7 @@
 .wrapper{
     padding-top: 1.68rem;
     height: 100%;
-//  box-sizing: border-box;
+  box-sizing: border-box;
 //  overflow: hidden;
 }
 .ctr {
@@ -28,7 +28,8 @@
 }
 .kong{
     width:100%;
-    height: 100%;
+    height: 10rem;
+    background: #fff;
     text-align: center;
     img{
         margin: 0 auto;
@@ -48,8 +49,7 @@
 .swiper-containerL {
     width: 100%;
     font-size: 14px;
-    height: 100%;
-    background: #fff;
+    height: auto;
     margin-top: 0.2rem;
 }
 
@@ -61,16 +61,15 @@
     background: #fff;
     .order-top {
         height: 0.66rem;
+        margin-top: 0.1rem;
         div {
             height: 0.66rem;
             float: left;
         }
         div:first-of-type{
-            width:80%;
+            width:100%;
         }
-        div:last-of-type{
-            width:20%;
-        }
+        
         span,
         p {
             height: 0.66rem;
